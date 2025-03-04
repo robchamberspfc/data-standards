@@ -12,7 +12,7 @@ Provide a reduced set of guidance and/or documentation for APIs in housing syste
 
 ### Desirable elements:
 
-* [Documentation available publicly or on request (before procurement of system)](https://airtable.com/app1PXK06Yp7cRweT/tblkHA3oYYXXc8JKB/viwdSp6fdFBJCQMsQ/reckTCrJcmibrgbk1?blocks=hide)  
+* [Documentation available publicly or on request (before procurement of system)](/procurement/open-documentation/)  
 * Provide examples of formats and data structure  
 * Usage examples (request examples)
 
@@ -24,7 +24,7 @@ Providing these details publicly, or upon request allows users to design integra
 
 ## Follow on
 
-This is a simpler step than the preferred approach of adhering to the [OpenAPI specification](https://airtable.com/app1PXK06Yp7cRweT/tblkHA3oYYXXc8JKB/viwdSp6fdFBJCQMsQ/recPtzl0GwBV8n8IH?blocks=hide) which, in some cases, may require APIs to be updated. This also may be the best approach for non-RESTful APIs.
+This is a simpler step than the preferred approach of adhering to the [OpenAPI specification](/procurement/open-api/) which, in some cases, may require APIs to be updated. This also may be the best approach for non-RESTful APIs.
 
 ## Related links
 
