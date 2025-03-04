@@ -18,8 +18,18 @@ for (i = 0; i < files.length; i++) {
         // seems to only like 1 dash type for lists, so convert to the one it likes
         markdown = markdown.replace(/— /g, "- ");
 
-        const html = marked.parse(markdown);
-        const output = sanitizeHtml(html);
+        let html = marked.parse(markdown);
+        
+        //add styles
+        html = html.replaceAll("<ul>",'<ul class="list">');
+        // html = html.replaceAll("<li>",'<li class="list-group-item">');
+
+        const output = sanitizeHtml(html, {
+            allowedClasses: {
+              'ul': [ 'list',]
+            }
+          });
+
         console.log("Output HTML")
         fs.writeFileSync(`./_includes/markdown-${name}.html`, output);
     });
