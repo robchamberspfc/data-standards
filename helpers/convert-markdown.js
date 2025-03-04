@@ -1,14 +1,14 @@
 const marked = require('marked');
 const sanitizeHtml = require('sanitize-html');
 const fs = require('node:fs');
-const files = fs.readdirSync('input');
+const files = fs.readdirSync('./helpers/input');
 
 for (i = 0; i < files.length; i++) {
-    
+
     let name = files[i]
     name = name.replace(/.md/g, "");
 
-    fs.readFile(`input/${files[i]}`, 'utf8', (err, markdown) => {
+    fs.readFile(`./helpers/input/${files[i]}`, 'utf8', (err, markdown) => {
         if (err) {
             console.error(err);
             return;
@@ -21,6 +21,6 @@ for (i = 0; i < files.length; i++) {
         const html = marked.parse(markdown);
         const output = sanitizeHtml(html);
         console.log("Output HTML")
-        fs.writeFileSync(`../app/_includes/markdown-${name}.html`, output);
+        fs.writeFileSync(`../_includes/markdown-${name}.html`, output);
     });
 }
