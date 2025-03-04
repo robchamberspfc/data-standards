@@ -21,6 +21,6 @@ for (i = 0; i < files.length; i++) {
         const html = marked.parse(markdown);
         const output = sanitizeHtml(html);
         console.log("Output HTML")
-        fs.writeFileSync(`../_includes/markdown-${name}.html`, output);
+        fs.writeFileSync(`./_includes/markdown-${name}.html`, output);
     });
 }
