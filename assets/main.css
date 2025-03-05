@@ -8,8 +8,20 @@ ul {
     color: white;
 }
 
-.local:hover {
+a.local:hover {
     background-color: black;
     text-decoration: solid;
     color: white;
 }
+
+a:disabled,
+a[disabled] {
+    background-color: dimgrey;
+    color: linen;
+    opacity: 1;
+    pointer-events: none;
+  }
+
+.mt-n2 {
+    margin-top: -0.5rem !important;
+  }
