@@ -54,7 +54,7 @@ title: ${newPages[i].name}
     <div class="container">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>${breadcrumb}
+                <li class="breadcrumb-item"><a href="/">Home</a></li>${breadcrumb}
             </ol>
         </nav>
         <h1 class="pb-4">${newPages[i].name}</h1>
