@@ -20,8 +20,8 @@ a[disabled] {
     color: linen;
     opacity: 1;
     pointer-events: none;
-  }
+}
 
 .mt-n2 {
     margin-top: -0.5rem !important;
-  }
+}
