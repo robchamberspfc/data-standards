@@ -1,0 +1,9 @@
+[{
+    "name": "API spec and documentation open to potential integrators",
+    "location": "./procurement/open-documentation",
+    "fileName":"procurement-open-documentation",
+    "breadcrumb": [{
+        "title": "Procurement",
+        "url": "/procurement"
+    }]
+}]
