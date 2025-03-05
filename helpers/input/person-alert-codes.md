@@ -1,7 +1,3 @@
-Repairs and maintenance \> Person alert codes
-
-# Person alert codes
-
 ## Contents
 
 — [Summary](#summary)  
