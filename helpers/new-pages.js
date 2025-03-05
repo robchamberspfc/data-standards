@@ -14,8 +14,9 @@ fs.readFile(`./helpers/new-pages.json`, 'utf8', (err, newPages) => {
         //check markdown page exists
         fs.readFile(`./_includes/markdown-${newPages[i].fileName}.html`, 'utf8', (err, newPages) => {
             if (err) {
-            console.log(`${err}
-                Markdown file missing. Ensure it exists and convert-markdown.js has been run.`)}
+                console.log(`${err}
+                Markdown file missing. Ensure it exists and convert-markdown.js has been run.`)
+            }
         });
 
         //create folder structure
@@ -70,7 +71,7 @@ title: ${newPages[i].name}
         </div>
     </div>
 </main>`
-        
+
         //write page to location
         fs.writeFileSync(`./_includes/${newPages[i].fileName}.html`, includePage);
     }
