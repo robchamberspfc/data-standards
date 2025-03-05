@@ -1,3 +1,15 @@
 ul {
     margin-left: 16px;
 }
+
+.local {
+    background-color: #007f80;
+    text-decoration: solid;
+    color: white;
+}
+
+.local:hover {
+    background-color: black;
+    text-decoration: solid;
+    color: white;
+}
