@@ -57,10 +57,10 @@ title: ${newPages[i].name}
                 <li class="breadcrumb-item"><a href="/">Home</a></li>${breadcrumb}
             </ol>
         </nav>
-        <h1 class="pb-4">${newPages[i].name}</h1>
+        <h1 class="pb-2">${newPages[i].name}</h1>
         <div class="row">
             <div class="col-md-7">
-                <h1 class="pb-4"></h1>
+                <h1 class="pb-2"></h1>
                     <div class="row pb-2">
                         {% include "markdown-${newPages[i].fileName}.html" %}
                     </div>

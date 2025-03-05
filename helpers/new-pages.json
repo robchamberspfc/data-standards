@@ -6,4 +6,12 @@
         "title": "Procurement",
         "url": "/procurement"
     }]
+},{
+    "name": "Person alert codes",
+    "location": "./standards/person-alert-codes",
+    "fileName":"person-alert-codes",
+    "breadcrumb": [{
+        "title": "Standards",
+        "url": "/standards"
+    }]
 }]

@@ -1,5 +1,3 @@
-# Person alert codes
-
 Contents
 — Summary
 — Who is this standard for
