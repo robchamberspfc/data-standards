@@ -24,10 +24,39 @@ for (i = 0; i < files.length; i++) {
         html = html.replaceAll("<ul>",'<ul class="list">');
         // html = html.replaceAll("<li>",'<li class="list-group-item">');
 
+
+        //strip out google tags and make them IDs
+          temp = (html.match(/<h2>/g) || []).length;
+          for (i=0; i<temp; i++){
+
+              // let startPos = html.indexOf("</h2>") + "</h2>".length;
+              // let endPos = html.indexOf("<h2>");
+              // let targetText = html.substring(startPos,endPos).trim();
+              
+              let startPos = html.indexOf("}") + "}".length;
+              let endPos = html.indexOf("{");
+              let targetText = html.substring(startPos,endPos).trim();
+
+              html = html.replace(targetText, "")
+
+              targetText = targetText.replace("{#", "")
+              targetText = targetText.replace("}", "")
+
+              let id = `<h2 id="${targetText}">`
+
+              html = html.replace("<h2>", id) 
+          }
+
+          // console.log(html)
+
         const output = sanitizeHtml(html, {
             allowedClasses: {
               'ul': [ 'list',]
             }
+            ,allowedAttributes: {
+              'h2': ["id"],
+              'a': ["href"]
+            },
           });
 
         console.log("Output HTML")
