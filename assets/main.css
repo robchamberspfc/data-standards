@@ -3,7 +3,10 @@ ul {
 }
 
 .local {
-    background-color: #007f80;
+    /* local digital green */
+    /* background-color: #007f80; */
+    /* slightly darker shade green to improve accessibility */
+    background-color: #006161;
     text-decoration: solid;
     color: white;
 }
