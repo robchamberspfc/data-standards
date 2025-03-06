@@ -1,5 +1,6 @@
 [{
     "name": "API spec and documentation open to potential integrators",
+    "type": "basic",
     "location": "./procurement/open-documentation",
     "fileName":"procurement-open-documentation",
     "breadcrumb": [{
@@ -7,7 +8,26 @@
         "url": "/procurement"
     }]
 },{
+    "name": "Essential API documentation",
+    "type": "basic",
+    "location": "./procurement/-api-documentation",
+    "fileName":"procurement-api-documentation",
+    "breadcrumb": [{
+        "title": "Procurement",
+        "url": "/procurement"
+    }]
+},{
+    "name": "Describe APIs using OpenAI spec",
+    "type": "basic",
+    "location": "./procurement/open-api",
+    "fileName":"procurement-open-api",
+    "breadcrumb": [{
+        "title": "Procurement",
+        "url": "/procurement"
+    }]
+},{
     "name": "Person alert codes",
+    "type": "contents",
     "location": "./standards/person-alert-codes",
     "fileName":"person-alert-codes",
     "breadcrumb": [{

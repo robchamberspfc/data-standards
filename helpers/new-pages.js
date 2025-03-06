@@ -11,7 +11,10 @@ fs.readFile(`./helpers/new-pages.json`, 'utf8', (err, newPages) => {
 
     //loop through
     for (i = 0; i < newPages.length; i++) {
-        //check markdown page exists
+
+        console.log(`${newPages[i].name}: Creating`)
+        
+        //check markdown page exists - eleventy will crash if not
         fs.readFile(`./_includes/markdown-${newPages[i].fileName}.html`, 'utf8', (err, newPages) => {
             if (err) {
                 console.log(`${err}
@@ -19,6 +22,7 @@ fs.readFile(`./helpers/new-pages.json`, 'utf8', (err, newPages) => {
             }
         });
 
+        console.log(`${newPages[i].name}: Creating folder structure`)
         //create folder structure
         fs.mkdirSync(newPages[i].location, {
             recursive: true
@@ -26,6 +30,7 @@ fs.readFile(`./helpers/new-pages.json`, 'utf8', (err, newPages) => {
             if (err) throw err;
         });
 
+        console.log(`${newPages[i].name}: Creating location page`)
         //create location page
         let locationPage = `---
 layout: ${newPages[i].fileName}
@@ -34,7 +39,7 @@ layout: ${newPages[i].fileName}
         //write page to location
         fs.writeFileSync(`${newPages[i].location}/index.html`, locationPage);
 
-        // create basic include page
+        console.log(`${newPages[i].name}: Creating include page`)
         //create breadcrumb
         breadcrumb = ''
 
@@ -61,18 +66,15 @@ title: ${newPages[i].name}
         <h1 class="pb-2">${newPages[i].name}</h1>
         <div class="row">
             <div class="col-md-7">
-                <h1 class="pb-2"></h1>
                     <div class="row pb-2">
                         {% include "markdown-${newPages[i].fileName}.html" %}
                     </div>
-            </div>
-            <div class="col-md-5 ">
             </div>
         </div>
     </div>
 </main>`
 
-        //write page to location
+        
         fs.writeFileSync(`./_includes/${newPages[i].fileName}.html`, includePage);
     }
 })
