@@ -79,8 +79,65 @@ title: ${newPages[i].name}
 
             fs.writeFileSync(`./_includes/${newPages[i].fileName}.html`, includePage);
         } else {
-            //TODO: create a navigation page
-            // console.log(newPages[i].name)
+
+            console.log(`${newPages[i].name}: Creating location page`)
+            //create location page
+            let locationPage = `---
+layout: ${newPages[i].fileName}
+---
+`
+            //write page to location
+            fs.writeFileSync(`${newPages[i].location}/index.html`, locationPage);
+
+            //create breadcrumb
+            breadcrumb = ''
+
+            for (j = 0; j < newPages[i].breadcrumb.length; j++) {
+                breadcrumb += `
+                <li class="breadcrumb-item"><a href="${newPages[i].breadcrumb[j].url}">${newPages[i].breadcrumb[j].title}</a></li>`
+            }
+
+            breadcrumb += `
+            <li class="breadcrumb-item active" aria-current="page">${newPages[i].name}</li>`
+
+            //create cards
+            cards = ''
+
+            for (k = 0; k < newPages[i].tiles.length; k++) {
+                cards += 
+            `<div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">${newPages[i].tiles[k].title}</h2>
+                    <p class="card-text">${newPages[i].tiles[k].description}</p>
+                    <a href="${newPages[i].tiles[k].url}" class="btn local">${newPages[i].tiles[k].title}</a>
+                </div>
+            </div>`
+            }
+
+            let includePage = `---
+layout: basic
+title: ${newPages[i].name}
+---
+
+<main role="main" id="content" tabindex="-1">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Home</a></li>${breadcrumb}
+        </ol>
+    </nav>
+    <h1 class="pb-4">${newPages[i].name}</h1>
+    <p>Guidance for...</p>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="row pb-2">
+            ${cards}
+        </div>
+      </div>
+    </div>
+  </div>
+</main>`
+    fs.writeFileSync(`./_includes/${newPages[i].fileName}.html`, includePage);
         }
     }
 })
