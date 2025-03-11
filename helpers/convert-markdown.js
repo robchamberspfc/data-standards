@@ -70,6 +70,6 @@ for (i = 0; i < files.length; i++) {
     console.log(`${name}: Output HTML`)
 
     //write files to location to be included in app
-    fs.writeFileSync(`./_includes/markdown-${name}.html`, output);
+    fs.writeFileSync(`./_includes/_markdown-${name}.html`, output);
   });
 }
