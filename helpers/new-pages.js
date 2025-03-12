@@ -76,7 +76,6 @@ title: ${newPages[i].name}
     </div>
 </main>`
 
-
             fs.writeFileSync(`./_includes/${newPages[i].fileName}.html`, includePage);
         } else {
 
@@ -104,8 +103,8 @@ layout: ${newPages[i].fileName}
             cards = ''
 
             for (k = 0; k < newPages[i].tiles.length; k++) {
-                cards += 
-            `<div class="card mb-4">
+                cards +=
+                    `<div class="card mb-4">
                 <div class="card-body">
                     <h2 class="card-title">${newPages[i].tiles[k].title}</h2>
                     <p class="card-text">${newPages[i].tiles[k].description}</p>
@@ -137,7 +136,7 @@ title: ${newPages[i].name}
     </div>
   </div>
 </main>`
-    fs.writeFileSync(`./_includes/${newPages[i].fileName}.html`, includePage);
+            fs.writeFileSync(`./_includes/${newPages[i].fileName}.html`, includePage);
         }
     }
 })

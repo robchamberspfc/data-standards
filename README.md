@@ -45,4 +45,4 @@ Run manually using:
 
 `node helpers/new-pages.js`
 
-Currently uses one page template, could be extended to work with multiple templates, defined within the json file if required. Safe to be rerun with existing pages.
+Currently uses two page template, could be extended to work with more templates. Safe to be rerun with existing pages. Probably needs a refactor for clarity.
