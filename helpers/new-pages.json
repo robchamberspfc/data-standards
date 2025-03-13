@@ -35,6 +35,27 @@
         "url": "/standards"
     }]
 }, {
+    "name": "Reference",
+    "type": "contents",
+    "location": "./standards/reference-class",
+    "fileName": "reference-class",
+    "breadcrumb": [{
+        "title": "Standards",
+        "url": "/standards"
+    }]
+}, {
+    "name": "Make a case for adopting the reference standard",
+    "type": "contents",
+    "location": "./standards/reference-class/case-for",
+    "fileName": "reference-class-case-for",
+    "breadcrumb": [{
+        "title": "Standards",
+        "url": "/standards"
+    },{
+        "title": "Reference class",
+        "url": "/standards/reference-class"
+    }]
+}, {
     "name": "Standards",
     "description": "Guidance for...",
     "type": "navigation",
