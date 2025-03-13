@@ -10,7 +10,7 @@
 }, {
     "name": "Essential API documentation",
     "type": "basic",
-    "location": "./procurement/-api-documentation",
+    "location": "./procurement/api-documentation",
     "fileName": "procurement-api-documentation",
     "breadcrumb": [{
         "title": "Procurement",
@@ -57,11 +57,11 @@
         "title": "Essential API documentation",
         "url": "api-documentation",
         "description": "Provide a reduced set of guidance and/or documentation for APIs in housing systems that cover critical elements for usage and understanding."
-    },{
+    }, {
         "title": "API spec and documentation open to potential integrators",
         "url": "open-documentation",
         "description": "Making details of APIs and other data interfaces available to organisations and their partners so that everyone can understand what is available and how it works at the earliest useful point."
-    },{
+    }, {
         "title": "Describe APIs using OpenAI spec",
         "url": "open-api",
         "description": "Government advice is that all RESFTful APIs should be documented using the OpenAPI spec."
