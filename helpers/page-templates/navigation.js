@@ -45,7 +45,11 @@ title: ${data.name}
             <li class="breadcrumb-item"><a href="/">Home</a></li>${breadcrumb}
             </ol>
         </nav>
-            <h1 class="mt-5 pt-4 mb-5 pb-4">${data.name}</h1>
+        <div class="row">
+            <div class="col-md-7">
+                <h1 class="mt-5 pt-4 mb-5 pb-4">${data.name}</h1>
+            </div>
+        </div>
         <div class="row pt-3 pb-4 mt-5">
                     ${cards}
             </div>
