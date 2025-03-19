@@ -16,8 +16,8 @@ module.exports = (data) => {
     cards = ''
 
     for (k = 0; k < data.tiles.length; k++) {
-        cards += `<div class="col-4 p-4">
-                    <div class="row pb-2">
+        cards += `<div class="col-4 ps-4 pe-4">
+                    <div class="row">
                         <div class="card mb-4 card-navigation rounded-0">
                             <div class="card-body">
                                 <div class="col-md-10">
@@ -46,7 +46,7 @@ title: ${data.name}
             </ol>
         </nav>
             <h1 class="mt-5 pt-4 mb-5 pb-4">${data.name}</h1>
-        <div class="row pt-3 mt-5">
+        <div class="row pt-3 pb-4 mt-5">
                     ${cards}
             </div>
         </div>

@@ -28,6 +28,16 @@
         "url": "/procurement"
     }],   
     "related": []
+},{
+    "name": "Access standards",
+    "type": "basic",
+    "location": "./procurement/access-standards",
+    "fileName": "access-standards",
+    "breadcrumb": [{
+        "title": "Procurement",
+        "url": "/procurement"
+    }],   
+    "related": []
 }, {
     "name": "Person alert codes",
     "type": "contents",
@@ -77,7 +87,7 @@
     "tiles": [{
         "title": "Person alert codes",
         "url": "person-alert-codes",
-        "description": "Provide a reduced set of guidance and/or documentation for APIs in housing systems that cover critical elements for usage and understanding."
+        "description": ""
     }],   
     "related": []
 }, {
@@ -90,15 +100,19 @@
     "tiles": [{
         "title": "Essential API documentation",
         "url": "api-documentation",
-        "description": "Provide a reduced set of guidance and/or documentation for APIs in housing systems that cover critical elements for usage and understanding."
+        "description": "Provide a reduced set of guidance / documentation for APIs in housing systems that cover critical elements."
     }, {
-        "title": "API spec and documentation open to potential integrators",
+        "title": "Open documentation",
         "url": "open-documentation",
-        "description": "Making details of APIs and other data interfaces available to organisations and their partners so that everyone can understand what is available and how it works at the earliest useful point."
+        "description": "Making details of data interfaces available to organisations and their partners so that everyone can understand what is available."
     }, {
         "title": "Describe APIs using OpenAI spec",
         "url": "open-api",
         "description": "Government advice is that all RESFTful APIs should be documented using the OpenAPI spec."
+    }, {
+        "title": "Access standards",
+        "url": "access-standards",
+        "description": "How to ensure the data is available at the time and in the ways you need it"
     }],   
     "related": []
 }]
