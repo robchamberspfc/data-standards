@@ -1,11 +1,7 @@
-/* @media (min-width: 1400px) {
+@media (min-width: 1400px) {
     .container{
-        max-width: 1200px;
+        max-width: 1140px;
     }
-} */
-
-ul {
-    margin-left: 16px;
 }
 
 .local {
@@ -17,7 +13,22 @@ ul {
     color: white;
 }
 
-a.local:focus,a.local:hover {
+.card-navigation {
+    background-color: #DFF1F4;
+}
+
+.card-navigation:focus,.card-navigation:hover {
+    text-decoration: solid !important;
+    background-color: #006161 !important;
+    color: white !important; 
+}
+
+a.card-navigation {
+    text-decoration: solid;
+    color: black;
+}
+
+a.card-navigation:focus,a.card-navigation:hover {
     background-color: black;
     text-decoration: solid;
     color: white;

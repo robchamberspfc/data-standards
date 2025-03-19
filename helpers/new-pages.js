@@ -39,7 +39,6 @@ fs.readFile(`./helpers/new-pages.json`, 'utf8', (err, newPages) => {
                     if (err) throw err;
                 });
 
-                console.log(`${newPages[i].name}: Creating location page`)
                 //create location page
                 let locationPage = location(newPages[i].fileName)
 
@@ -69,5 +68,7 @@ fs.readFile(`./helpers/new-pages.json`, 'utf8', (err, newPages) => {
             //write page to location
             fs.writeFileSync(`./_includes/${newPages[i].fileName}.html`, includePage);
         }
+
+        console.log(`${newPages[i].name}: Finished`)
     }
 })

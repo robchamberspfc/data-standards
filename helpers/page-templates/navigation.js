@@ -16,13 +16,21 @@ module.exports = (data) => {
     cards = ''
 
     for (k = 0; k < data.tiles.length; k++) {
-        cards += `<div class="card mb-4">
-                        <div class="card-body">
-                            <h2 class="card-title">${data.tiles[k].title}</h2>
-                            <p class="card-text">${data.tiles[k].description}</p>
-                            <a href="${data.tiles[k].url}" class="btn local">${data.tiles[k].title}</a>
+        cards += `<div class="col-4 p-4">
+                    <div class="row pb-2">
+                        <div class="card mb-4 card-navigation rounded-0">
+                            <div class="card-body">
+                                <div class="col-md-10">
+                                    <a href="${data.tiles[k].url}" class="stretched-link card-navigation">
+                                        <p class="card-text h3">${data.tiles[k].title}</p>
+                                        <p class="card-text">${data.tiles[k].description}</p>
+                                </div>
+                                <p class="pb-0 pt-5"><i class="bi bi-arrow-right-short h2"></i></p>
+                                </a>
+                            </div>
                         </div>
-                    </div>`
+                    </div>
+                </div>`
     }
 
     let html = `---
@@ -32,18 +40,14 @@ title: ${data.name}
 
 <main role="main" id="content" tabindex="-1">
     <div class="container">
-        <nav aria-label="breadcrumb">
+        <nav aria-label="breadcrumb" class="mt-4">
             <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">Home</a></li>${breadcrumb}
             </ol>
         </nav>
-            <h1 class="pb-4">${data.name}</h1>
-            <p>Guidance for...</p>
-        <div class="row">
-            <div class="col-md-8">
-                <div class="row pb-2">
+            <h1 class="mt-5 pt-4 mb-5 pb-4">${data.name}</h1>
+        <div class="row pt-3 mt-5">
                     ${cards}
-                </div>
             </div>
         </div>
     </div>

@@ -1,12 +1,13 @@
 [{
-    "name": "API spec and documentation open to potential integrators",
+    "name": "API documentation open to potential integrators",
     "type": "basic",
     "location": "./procurement/open-documentation",
     "fileName": "procurement-open-documentation",
     "breadcrumb": [{
         "title": "Procurement",
         "url": "/procurement"
-    }]
+    }],   
+    "related": []
 }, {
     "name": "Essential API documentation",
     "type": "basic",
@@ -15,7 +16,8 @@
     "breadcrumb": [{
         "title": "Procurement",
         "url": "/procurement"
-    }]
+    }],   
+    "related": []
 }, {
     "name": "Describe APIs using OpenAI spec",
     "type": "basic",
@@ -24,13 +26,21 @@
     "breadcrumb": [{
         "title": "Procurement",
         "url": "/procurement"
-    }]
+    }],   
+    "related": []
 }, {
     "name": "Person alert codes",
     "type": "contents",
     "location": "./standards/person-alert-codes",
     "fileName": "person-alert-codes",
     "breadcrumb": [{
+        "title": "Standards",
+        "url": "/standards"
+    }],   
+    "related": [{
+        "title": "Standards",
+        "url": "/standards"
+    },{
         "title": "Standards",
         "url": "/standards"
     }]
@@ -42,7 +52,8 @@
     "breadcrumb": [{
         "title": "Standards",
         "url": "/standards"
-    }]
+    }],   
+    "related": []
 }, {
     "name": "Make a case for adopting the reference standard",
     "type": "contents",
@@ -54,7 +65,8 @@
     },{
         "title": "Reference class",
         "url": "/standards/reference-class"
-    }]
+    }],   
+    "related": []
 }, {
     "name": "Standards",
     "description": "Guidance for...",
@@ -66,7 +78,8 @@
         "title": "Person alert codes",
         "url": "person-alert-codes",
         "description": "Provide a reduced set of guidance and/or documentation for APIs in housing systems that cover critical elements for usage and understanding."
-    }]
+    }],   
+    "related": []
 }, {
     "name": "Procurement",
     "description": "Guidance for...",
@@ -86,5 +99,6 @@
         "title": "Describe APIs using OpenAI spec",
         "url": "open-api",
         "description": "Government advice is that all RESFTful APIs should be documented using the OpenAPI spec."
-    }]
+    }],   
+    "related": []
 }]
