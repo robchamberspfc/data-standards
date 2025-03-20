@@ -10,7 +10,7 @@ Government advice is that all RESFTful APIs should be documented using the OpenA
 ### Desirable elements:
 
 * Sandpit or test environment to develop against  
-* [Available publicly or on request (before procurement of system)](https://airtable.com/app1PXK06Yp7cRweT/tblkHA3oYYXXc8JKB/viwdSp6fdFBJCQMsQ/reckTCrJcmibrgbk1?blocks=hide)
+* [Available publicly or on request (before procurement of system)](/procurement/open-documentation/)
 
 ## How it can help
 
