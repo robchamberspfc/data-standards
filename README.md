@@ -14,7 +14,6 @@ To run:
 
 `npx @11ty/eleventy --serve` to run locally on hot reloading server
 
-
 ## Hosting
 
 Site is hosted on Netlify at: https://housing-data-standards.netlify.app/
@@ -33,16 +32,16 @@ Run manually using:
 
 `node helpers/convert-markdown.js`
 
-This is also automatically run on deployment.
+**This is also automatically run on deployment.**
 
 ### New pages
 
 Automates the creation of new pages based on the content of `new-pages.json`.
 
-**NOTE: Due to the way Eleventy build templates you need to make sure the markdown file has been added to `helpers/input`and Markdown converter has been run before running.**
+**NOTE: Due to the way Eleventy build templates you need to make sure the markdown file has been added to `helpers/input` and Markdown converter has been run before running.**
 
 Run manually using:
 
 `node helpers/new-pages.js`
 
-Currently uses two page template, could be extended to work with more templates. Safe to be rerun with existing pages. Probably needs a refactor for clarity.
+Currently uses two page templates (simple and navigation), could be extended to work with more templates. Safe to be rerun with existing pages.
