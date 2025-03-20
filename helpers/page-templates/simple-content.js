@@ -11,13 +11,26 @@ module.exports = (data) => {
     breadcrumb += `
                 <li class="breadcrumb-item active" aria-current="page">${data.name}</li>`
 
-    let related = ''
+    let related = ""
 
-    for (j = 0; j < data.related.length; j++) {
-        related += `
+    if (data.related.length > 0) {
+
+        let relatedLinks = ""
+
+        for (j = 0; j < data.related.length; j++) {
+            relatedLinks += `
                 <li class="related-item"><a href="${data.related[j].url}">${data.related[j].title}</a></li>`
-    }
+        }
 
+        related = `<div class="col-md-5">
+                        <div class="row pb-2">
+                        <hr>
+                            <h2>Related content</h2>
+                            ${relatedLinks}
+                    </div>
+                </div>`
+    }
+    
     let html = `---
 layout: basic
 title: ${data.name}
@@ -41,13 +54,7 @@ title: ${data.name}
                         {% include "_markdown-${data.fileName}.html" %}
                     </div>
             </div>
-            <div class="col-md-5">
-                    <div class="row pb-2">
-                    <hr>
-                    <h2>Related content</h2>
-                        ${related}
-                    </div>
-            </div>
+            ${related}
         </div>
     </div>
 </main>`
