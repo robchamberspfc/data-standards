@@ -1,5 +1,3 @@
-# What are data standards
-
 Standards are documented, reusable agreements that solve a specific set of problems or meet clearly defined needs.
 
 They provide rules, guidelines or characteristics for activities so that they can be repeated. The aim is to achieve the greatest degree of order in a given context.

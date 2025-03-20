@@ -1,4 +1,18 @@
 [{
+    "name": "About",
+    "type": "basic",
+    "location": "./about",
+    "fileName": "about",
+    "breadcrumb": [],   
+    "related": []
+},{
+    "name": "What are data standards",
+    "type": "basic",
+    "location": "./what-are-data-standards",
+    "fileName": "what-are-data-standards",
+    "breadcrumb": [],   
+    "related": []
+},{
     "name": "API documentation open to potential integrators",
     "type": "basic",
     "location": "./procurement/open-documentation",
