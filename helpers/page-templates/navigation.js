@@ -21,12 +21,12 @@ module.exports = (data) => {
                         <div class="card mb-4 card-navigation rounded-0">
                             <div class="card-body">
                                 <div class="col-md-10">
+                                    <h2 class="h3 card-text">
                                     <a href="${data.tiles[k].url}" class="stretched-link card-navigation">
-                                        <p class="card-text h3">${data.tiles[k].title}</p>
-                                        <p class="card-text">${data.tiles[k].description}</p>
+                                        ${data.tiles[k].title}</a></h2>
+                                    <p class="card-text">${data.tiles[k].description}</p>
                                 </div>
                                 <p class="pb-0 pt-5"><i class="bi bi-arrow-right-short h2"></i></p>
-                                </a>
                             </div>
                         </div>
                     </div>
