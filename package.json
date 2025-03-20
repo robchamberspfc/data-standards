@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "update":"node helpers/convert-markdown.js && node helpers/new-pages.js",
+    "dev":"npx @11ty/eleventy --serve"
   },
   "author": "",
   "license": "ISC",
