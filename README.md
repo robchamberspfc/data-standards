@@ -18,7 +18,7 @@ To run:
 
 Site is hosted on Netlify at: https://housing-data-standards.netlify.app/
 
-On update to main, the site will regenerate the HTML from markdown and deploy the update to netlify.
+On update to main, the site will regenerate the pages and navigation from the [pages.json](helpers/new-pages.json) file and HTML from markdown and deploy the update to netlify.
 
 ## Helpers
 
@@ -45,3 +45,5 @@ Run manually using:
 `node helpers/new-pages.js`
 
 Currently uses two page templates (simple and navigation), could be extended to work with more templates. Safe to be rerun with existing pages.
+
+**This is also automatically run on deployment.**
