@@ -10,6 +10,11 @@
     color: white;
 } */
 
+blockquote {
+    background-color: #f8f9fa;
+    padding-top: 16px;
+}
+
 .card-navigation {
     background-color: #DFF1F4;
 }
