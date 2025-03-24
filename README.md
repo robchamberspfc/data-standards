@@ -36,7 +36,31 @@ Run manually using:
 
 ### New pages
 
-Automates the creation of new pages based on the content of `new-pages.json`.
+Automates the creation of new pages based on the content of `new-pages.json`. This is located in the [helpers directory](helpers/new-pages.json)
+
+```
+{
+    "name": "Person alert codes",
+    "type": "basic",
+    "location": "./standards/person-alert-codes",
+    "fileName": "person-alert-codes",
+    "breadcrumb": [{
+        "title": "Standards",
+        "url": "/standards"
+    }],   
+    "related": [{
+        "title": "Standards",
+        "url": "/standards"
+    },{
+        "title": "Standards",
+        "url": "/standards"
+    }]
+}
+```
+
+`"type":` Can be `"basic"` or `"navigation"`
+
+`"breadcrumb"` Is for defining any layers between this page and the home page. **NOTE:'home' and the page itself need not be included.**
 
 **NOTE: Due to the way Eleventy build templates you need to make sure the markdown file has been added to `helpers/input` and Markdown converter has been run before running.**
 

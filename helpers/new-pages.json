@@ -54,7 +54,7 @@
     "related": []
 }, {
     "name": "Person alert codes",
-    "type": "contents",
+    "type": "basic",
     "location": "./standards/person-alert-codes",
     "fileName": "person-alert-codes",
     "breadcrumb": [{
@@ -70,7 +70,7 @@
     }]
 }, {
     "name": "Reference",
-    "type": "contents",
+    "type": "basic",
     "location": "./standards/reference-class",
     "fileName": "reference-class",
     "breadcrumb": [{
@@ -80,7 +80,7 @@
     "related": []
 }, {
     "name": "Make a case for adopting the reference standard",
-    "type": "contents",
+    "type": "basic",
     "location": "./standards/reference-class/case-for",
     "fileName": "reference-class-case-for",
     "breadcrumb": [{
