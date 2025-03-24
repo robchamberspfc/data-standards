@@ -2,6 +2,7 @@ const fs = require('node:fs');
 const location = require('./page-templates/location.js');
 const navigation = require('./page-templates/navigation.js');
 const simpleContent = require('./page-templates/simple-content.js');
+const home = require('./page-templates/home.js');
 
 const includes = fs.readdirSync('./_includes');
 
@@ -20,7 +21,7 @@ fs.readFile(`./helpers/new-pages.json`, 'utf8', (err, newPages) => {
         console.log(`${newPages[i].name}: Creating`)
 
         // if not a navigation page we need to check markdown exists
-        if (newPages[i].type != "navigation") {
+        if (newPages[i].type == "basic") {
 
             markdownExists = includes.indexOf(`_markdown-${newPages[i].fileName}.html`)
 
@@ -46,6 +47,20 @@ fs.readFile(`./helpers/new-pages.json`, 'utf8', (err, newPages) => {
                 fs.writeFileSync(`${newPages[i].location}/index.html`, locationPage);
 
             }
+
+        } else if (newPages[i].type == "home") {
+
+            //create location page
+            let locationPage = location(newPages[i].fileName)
+
+            //write page to location
+            fs.writeFileSync(`index.html`, locationPage);
+
+            //create include page
+            let includePage = home(newPages[i])
+
+            //write page to location
+            fs.writeFileSync(`./_includes/${newPages[i].fileName}.html`, includePage);
 
         } else {
 

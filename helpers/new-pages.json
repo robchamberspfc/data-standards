@@ -1,4 +1,11 @@
 [{
+    "name": "Home",
+    "type": "home",
+    "location": "./",
+    "fileName": "home",
+    "breadcrumb": [],   
+    "related": []
+},{
     "name": "About",
     "type": "basic",
     "location": "./about",
