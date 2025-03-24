@@ -20,8 +20,9 @@ Data standards are used to:
 * make combining information simpler and streamlined  
 * share information consistently between systems
 
-> Example of a data standard:
->   - [TransXChange](https://www.gov.uk/government/collections/transxchange): A UK standard for sharing bus route information, including timetables and live locations.
+Example of a data standard:
+
+- [TransXChange](https://www.gov.uk/government/collections/transxchange): A UK standard for sharing bus route information, including timetables and live locations.
 
 ## Benefits of adopting data standards
 
