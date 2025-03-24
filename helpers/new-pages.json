@@ -3,6 +3,24 @@
     "type": "home",
     "location": "./",
     "fileName": "home",
+    "topSection": {
+        "name":"Get started",
+        "items":[{
+            "title": "What are data standards?",
+            "url": "what-are-data-standards",
+            "description": ""
+        },
+        {
+            "title": "About this service",
+            "url": "about",
+            "description": ""
+        },{
+            "title": "Case studies",
+            "url": "procurement",
+            "description": ""
+        }
+        ]
+    },
     "breadcrumb": [],   
     "related": []
 },{
