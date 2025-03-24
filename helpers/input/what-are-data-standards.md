@@ -4,10 +4,11 @@ They provide rules, guidelines or characteristics for activities so that they ca
 
 Standards are used in industries and sectors across the world to document agreements.
 
-> Everyday standards include:
->   - standards for electrical sockets so any appliance can be plugged in
->   - ISBN numbers to uniquely identify books
->   - UK postcodes
+Everyday standards include:
+
+- standards for electrical sockets so any appliance can be plugged in
+- ISBN numbers to uniquely identify books
+- UK postcodes
 
 ## How standards apply to data
 
