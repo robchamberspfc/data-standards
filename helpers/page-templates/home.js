@@ -3,38 +3,44 @@ module.exports = (data) => {
     //create cards
     topSection = ''
 
-    for (k = 0; k < data.topSection.items.length; k++) {
+    for (j = 0; j < data.topSection.length; j++) {
 
-        let pill = ""
+        let sections = ''
+        for (k = 0; k < data.topSection[j].items.length; k++) {
 
-        if (data.topSection.items[k].pill != null) {
-            pill = `<span class="badge text-bg-secondary p-2 rounded-0">${data.topSection.items[k].pill}</span>`
-        }
+            let pill = ''
 
-        topSection += `
-            <div class="col-12 col-md-4 p-md-4">
+
+            if (data.topSection[j].items[k].pill != null) {
+                pill = `<span class="badge text-bg-secondary p-2 rounded-0">${data.topSection[j].items[k].pill}</span>`
+            }
+
+            sections += `
+            <div class="col-12 col-md-4 ps-4 pe-4">
                 <div class="row pb-2">
                     <div class="card mb-4 card-navigation rounded-0">
                         <div class="card-body">
                             <div class="col-md-10">
                                 <h3 class="card-text">
-                                <a href="${data.topSection.items[k].url}" class="stretched-link card-navigation">
-                                    ${data.topSection.items[k].title}</a></h3>
-                                <p class="card-text">${data.topSection.items[k].description}</p>
-                                
+                                <a href="${data.topSection[j].items[k].url}" class="stretched-link card-navigation">
+                                    ${data.topSection[j].items[k].title}</a></h3>
+                                <p class="card-text">${data.topSection[j].items[k].description}</p>
                             </div>
                             <div class="row pt-5 pb-0">
                                 <div class="col-md-8">
                                     <i class="bi bi-arrow-right-short h2"></i>
                                 </div>
-                                <div class="col-md-4 mt-1">
-                                    ${pill}
-                                </div>
+                                <div class="col-md-4 mt-1">${pill}</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>`
+        }
+        topSection += `<h2 class="mt-5 mb-5">${data.topSection[j].name}</h2>
+                    <div class="row mb-3">${sections}
+                    </div>`
+
     }
 
     //link sections
@@ -69,9 +75,7 @@ title: Home
                 <p class="lead mt-5 mb-5">Information, guidance and resources to help social housing providers adopt data standards.</p>
             </div>
         </div>
-        <h2 class="mt-5 mb-5">${data.topSection.name}</h2>
-        <div class="row mb-3">${topSection}
-        </div>
+            ${topSection}
         <div class = "pb-5 mb-5">
             ${linkSection}
         </div>
