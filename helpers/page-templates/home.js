@@ -4,6 +4,13 @@ module.exports = (data) => {
     topSection = ''
 
     for (k = 0; k < data.topSection.items.length; k++) {
+
+        let pill = ""
+
+        if (data.topSection.items[k].pill != null) {
+            pill = `<span class="badge text-bg-secondary p-2 rounded-0">${data.topSection.items[k].pill}</span>`
+        }
+
         topSection += `
             <div class="col-12 col-md-4 p-md-4">
                 <div class="row pb-2">
@@ -14,8 +21,16 @@ module.exports = (data) => {
                                 <a href="${data.topSection.items[k].url}" class="stretched-link card-navigation">
                                     ${data.topSection.items[k].title}</a></h3>
                                 <p class="card-text">${data.topSection.items[k].description}</p>
+                                
                             </div>
-                            <p class="pb-0 pt-5"><i class="bi bi-arrow-right-short h2"></i></p>
+                            <div class="row pt-5 pb-0">
+                                <div class="col-md-8">
+                                    <i class="bi bi-arrow-right-short h2"></i>
+                                </div>
+                                <div class="col-md-4 mt-1">
+                                    ${pill}
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
