@@ -50,7 +50,7 @@ title: Home
     <div class="container">
         <div class="row">
             <div class="col-md-8 mt-5">
-                <h1 class="display-3 fw-bold text-body-emphasis mt-5">Housing data standards support service</h1>
+                <h1 class="display-3 fw-bold text-body-emphasis mt-5">Adopt social housing data standards</h1>
                 <p class="lead mt-5 mb-5">Content supporting the adoption and use of API and data standards within the
                     social housing sector.</p>
             </div>
