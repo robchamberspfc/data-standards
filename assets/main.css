@@ -17,6 +17,8 @@ blockquote {
 
 .card-navigation {
     background-color: #DFF1F4;
+    border-color: #DFF1F4;
+    border-width: 2px;
 }
 
 .card-navigation:focus,.card-navigation:hover {
