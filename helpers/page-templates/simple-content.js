@@ -44,12 +44,12 @@ title: ${data.name}
             </ol>
         </nav>
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-lg-7">
                 <h1 class="pt-4 pb-4">${data.name}</h1>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-lg-7 col-md-12">
                     <div class="row pb-2">
                         {% include "_markdown-${data.fileName}.html" %}
                     </div>
