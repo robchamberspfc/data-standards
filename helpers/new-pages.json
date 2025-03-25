@@ -4,40 +4,67 @@
     "location": "./",
     "fileName": "home",
     "topSection": {
-        "name":"Get started",
-        "items":[{
-            "title": "What are data standards?",
-            "url": "what-are-data-standards",
-            "description": ""
-        },
-        {
-            "title": "About this service",
-            "url": "about",
-            "description": ""
-        },{
-            "title": "Case studies",
-            "url": "procurement",
-            "description": ""
-        }
+        "name": "Get started",
+        "items": [{
+                "title": "What are data standards?",
+                "url": "what-are-data-standards",
+                "description": ""
+            },
+            {
+                "title": "About this service",
+                "url": "about",
+                "description": ""
+            }, {
+                "title": "Case studies",
+                "url": "procurement",
+                "description": ""
+            }
         ]
     },
-    "breadcrumb": [],   
-    "related": []
-},{
+    "linkBlocks": [{
+        "name": "Data standards",
+        "items": [{
+                "title": "Person alert codes",
+                "url": "standards/person-alert-codes/"
+            },
+            {
+                "title": "Reference class",
+                "url": "standards/reference-class/"
+            }
+        ]
+    }, {
+        "name": "Procurement",
+        "items": [{
+                "title": "Access standards",
+                "url": "procurement/access-standards"
+            },
+            {
+                "title": "Essential API documentation",
+                "url": "procurement/api-documentation"
+            }, {
+                "title": "API documentation open to potential integrators",
+                "url": "procurement/open-documentation"
+            }, {
+                "title": "Describe APIs using OpenAI spec",
+                "url": "procurement/open-api"
+            }
+        ]
+    }]
+}, {
     "name": "About",
     "type": "basic",
     "location": "./about",
     "fileName": "about",
-    "breadcrumb": [],   
+    "breadcrumb": [],
     "related": []
-},{
+}, {
     "name": "What are data standards",
     "type": "basic",
     "location": "./what-are-data-standards",
     "fileName": "what-are-data-standards",
-    "breadcrumb": [],   
+    "breadcrumb": [],
     "related": []
-},{
+}, {
     "name": "API documentation open to potential integrators",
     "type": "basic",
     "location": "./procurement/open-documentation",
@@ -45,7 +72,7 @@
     "breadcrumb": [{
         "title": "Procurement",
         "url": "/procurement"
-    }],   
+    }],
     "related": []
 }, {
     "name": "Essential API documentation",
@@ -55,7 +82,7 @@
     "breadcrumb": [{
         "title": "Procurement",
         "url": "/procurement"
-    }],   
+    }],
     "related": []
 }, {
     "name": "Describe APIs using OpenAI spec",
@@ -65,9 +92,9 @@
     "breadcrumb": [{
         "title": "Procurement",
         "url": "/procurement"
-    }],   
+    }],
     "related": []
-},{
+}, {
     "name": "Access standards",
     "type": "basic",
     "location": "./procurement/access-standards",
@@ -75,7 +102,7 @@
     "breadcrumb": [{
         "title": "Procurement",
         "url": "/procurement"
-    }],   
+    }],
     "related": []
 }, {
     "name": "Person alert codes",
@@ -85,11 +112,11 @@
     "breadcrumb": [{
         "title": "Standards",
         "url": "/standards"
-    }],   
+    }],
     "related": [{
         "title": "Standards",
         "url": "/standards"
-    },{
+    }, {
         "title": "Standards",
         "url": "/standards"
     }]
@@ -101,7 +128,7 @@
     "breadcrumb": [{
         "title": "Standards",
         "url": "/standards"
-    }],   
+    }],
     "related": []
 }, {
     "name": "Make a case for adopting the reference standard",
@@ -111,10 +138,10 @@
     "breadcrumb": [{
         "title": "Standards",
         "url": "/standards"
-    },{
+    }, {
         "title": "Reference class",
         "url": "/standards/reference-class"
-    }],   
+    }],
     "related": []
 }, {
     "name": "Standards",
@@ -127,8 +154,11 @@
         "title": "Person alert codes",
         "url": "person-alert-codes",
         "description": ""
-    }],   
-    "related": []
+    },{
+        "title": "Reference class",
+        "url": "reference-class",
+        "description": ""
+    }]
 }, {
     "name": "Procurement",
     "description": "Guidance for...",
@@ -152,6 +182,5 @@
         "title": "Access standards",
         "url": "access-standards",
         "description": "How to ensure the data is available at the time and in the ways you need it"
-    }],   
-    "related": []
+    }]
 }]

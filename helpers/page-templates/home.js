@@ -1,10 +1,10 @@
 module.exports = (data) => {
 
-//create cards
-topSection = ''
+    //create cards
+    topSection = ''
 
-for (k = 0; k < data.topSection.items.length; k++) {
-    topSection += `
+    for (k = 0; k < data.topSection.items.length; k++) {
+        topSection += `
             <div class="col-12 col-md-4 p-md-4">
                 <div class="row pb-2">
                     <div class="card mb-4 card-navigation rounded-0">
@@ -20,8 +20,26 @@ for (k = 0; k < data.topSection.items.length; k++) {
                     </div>
                 </div>
             </div>`
-}
+    }
 
+    //link sections
+    linkSection = ''
+
+    for (l = 0; l < data.linkBlocks.length; l++) {
+        let linksList = ''
+        for (m = 0; m < data.linkBlocks[l].items.length; m++) {
+            linksList += `<h3 class="h5"><a href="${data.linkBlocks[l].items[m].url}" class="">
+                                    ${data.linkBlocks[l].items[m].title}</a></h3>`
+        }
+
+        linkSection += `<div class="col-12 col-md-8">
+                <div class="row pb-2">
+                    <h2 class="mt-5 mb-5">${data.linkBlocks[l].name}</h2>
+                    ${linksList}
+                </div>
+            </div>
+        `
+    }
 
     html = `---
 layout: basic
@@ -40,38 +58,8 @@ title: Home
         <h2 class="mt-5 mb-5">${data.topSection.name}</h2>
         <div class="row mb-3">${topSection}
         </div>
-        <h2 class="mt-5 mb-5">Get standards</h2>
-        <div class="row mb-5 pb-5">
-            <div class="col-12 col-md-4 p-md-4">
-                <div class="row pb-2">
-                    <div class="card mb-4 card-navigation rounded-0">
-                        <div class="card-body">
-                            <div class="col-md-10">
-                                <h3 class="card-text">
-                                <a href="procurement" class="stretched-link card-navigation">
-                                    Service areas</a></h3>
-                                <p class="card-text">Find data standards relating repairs and maintenance etc</p>
-                            </div>
-                            <p class="pb-0 pt-5"><i class="bi bi-arrow-right-short h2"></i></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 p-md-4">
-                <div class="row pb-2 ">
-                    <div class="card mb-4 card-navigation rounded-0">
-                        <div class="card-body">
-                            <div class="col-md-10">
-                                <h3 class="card-text">
-                                <a href="procurement" class="stretched-link card-navigation">
-                                    All data standards</a></h3>
-                                <p class="card-text">See all data standards and guidance</p>
-                            </div>
-                            <p class="pb-0 pt-5"><i class="bi bi-arrow-right-short h2"></i></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class = "pb-5 mb-5">
+            ${linkSection}
         </div>
     </div>
 </main>`
