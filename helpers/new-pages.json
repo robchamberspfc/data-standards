@@ -17,7 +17,7 @@
             }
         ]
     }, {
-        "name": "data standards",
+        "name": "Data standards",
         "items": [{
                 "title": "Person alert codes",
                 "url": "standards/person-alert-codes/",
@@ -33,11 +33,7 @@
         ]
     }, {
         "name": "Procurement",
-        "items": [{
-                "title": "Access standards",
-                "url": "procurement/access-standards",
-                "description": "How to ensure the data is available at the time and in the ways you need it"
-            },
+        "items": [
             {
                 "title": "Essential API documentation",
                 "url": "procurement/api-documentation",
@@ -47,9 +43,13 @@
                 "url": "procurement/open-api",
                 "description": "Government advice is that all RESFTful APIs should be documented using the OpenAPI spec."
             }, {
-                "title": "API documentation open to potential integrators",
+                "title": "API documentation open to integrators",
                 "url": "procurement/open-documentation",
                 "description": "Making details of data interfaces available to organisations and their partners so that everyone can understand what is available."
+            },{
+                "title": "Access standards",
+                "url": "procurement/access-standards",
+                "description": "How to ensure the data is available at the time and in the ways you need it"
             }
         ]
     }],
