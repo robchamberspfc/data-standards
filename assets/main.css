@@ -52,3 +52,7 @@ a[disabled] {
 .mt-n2 {
     margin-top: -0.5rem !important;
 }
+
+a:focus,a:hover {
+    text-decoration: solid;
+}
