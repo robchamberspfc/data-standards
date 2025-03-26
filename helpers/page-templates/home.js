@@ -18,7 +18,7 @@ module.exports = (data) => {
             <div class="col col-12 col-lg-4 col-md-6 pb-4">
                     <div class="card card-navigation rounded-0 h-100">
                         <div class="card-body">
-                            <div class="col-md-10">
+                            <div class="col-md-12">
                                 <h3 class="card-text h4">
                                 <a href="${data.topSection[j].items[k].url}" class="stretched-link card-navigation">
                                     ${data.topSection[j].items[k].title}</a></h3>

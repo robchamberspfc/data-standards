@@ -27,7 +27,7 @@ module.exports = (data) => {
                     <div class="col col-12 col-lg-4 col-md-6 pb-4">
                         <div class="card mb-4 card-navigation rounded-0 h-100">
                             <div class="card-body">
-                                 <div class="col-md-10">
+                                 <div class="col-md-12">
                                     <h2 class="h3 card-text">
                                      <a href="${data.tiles[k].url}" class="stretched-link card-navigation">
                                             ${data.tiles[k].title}</a></h2>
