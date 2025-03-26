@@ -99,10 +99,10 @@
     }],
     "related": []
 }, {
-    "name": "Access standards",
+    "name": "Putting data access requirements in tender documents",
     "type": "basic",
     "location": "./procurement/access-standards",
-    "fileName": "access-standards",
+    "fileName": "putting-data-access-requirements-in-tender-documents",
     "breadcrumb": [{
         "title": "Procurement",
         "url": "/procurement"
