@@ -1,15 +1,6 @@
-
-
-Repairs and maintenance \> Reference
-
-# Reference
-
 This page refers to HACT Model Version Main/3.5 published on 16 Jun 2022 00:00
 
-     
-
-| Technical users who are really to apply this standard may choose to go straight to the [technical guidance](?tab=t.j2sltwmjz1yy) |
-| :---- |
+> Technical users who are really to apply this standard may choose to go straight to the [technical guidance](?tab=t.j2sltwmjz1yy)
 
 ## Summary
 
@@ -29,16 +20,16 @@ A reference is a bit like the:
 
 **![A stylised image of a credit card, showing the words Bank Name in the top right and a long credit card number across the middle. A label pointing to the bank name says: "The name of the bank shows who assigned the long number"A label pointing to the long number says: "The long number uniquely identifies this specific card"][image1]**
 
-### Reference is metadata, stored outside of the main table.
+Reference is metadata, stored outside of the main table.
 
 ### About the attributes of this entity
 
 Reference has attributes that show:
 
 * the reference number (or other identifier) in question  
-  * the organisation or system that created the reference number  
-  * what role the source organisation has, such as property manager or facility manager  
-  * any important background about the reference, for example that it is a barcode for something physical 
+* the organisation or system that created the reference number
+* what role the source organisation has, such as property manager or facility manager
+* any important background about the reference, for example that it is a barcode for something physical 
 
 [See the technical guidance for the attributes](?tab=t.j2sltwmjz1yy)
 
@@ -67,16 +58,17 @@ Housing providers’ data can become messy. For example, you might have multiple
 Using the reference entity can help cleanse these sorts of messes, by making it possible to:
 
 * remove confusion   
-  * spot duplicates  
-  * capture new data in the right place  
-  * distinguish between identifiers  
-  * see whether an identifier is official  
-  * share data between systems and organisations, or through APIs
+* spot duplicates  
+* capture new data in the right place  
+* distinguish between identifiers  
+* see whether an identifier is official  
+* share data between systems and organisations, or through APIs
 
 [Read more about the benefits of adopting this entity](?tab=t.5um92sahxwmk#heading=h.hlocrn6ep95z)
 
-| Application Programming Interface (API)  A piece of software that lets one program access or control another program. APIs allow applications to share data without requiring developers to share software code. |
-| :---- |
+> **Application Programming Interface (API)**
+>
+> A software component that allows applications and developers to access systems in a controlled, structured way. One common use is to allow applications to share data without granting direct access to databases or internal systems.
 
 ## [Make a case for adopting this entity](?tab=t.5um92sahxwmk) [Download reference](https://docs.google.com/document/d/1BouljMkq_6m9PNmEzT89Crk2jhhCmX9vntWG-nsKTAQ/edit?tab=t.hbsbksyx2fby)
 
