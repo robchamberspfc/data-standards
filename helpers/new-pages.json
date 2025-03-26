@@ -22,13 +22,13 @@
                 "title": "Person alert codes",
                 "url": "standards/person-alert-codes/",
                 "description": "Flags tenants’ vulnerabilities to those visiting the property.",
-                "pill":"codelist"
+                "pill":"Code list"
             },
             {
                 "title": "Reference class",
                 "url": "standards/reference-class/",
                 "description": "Records an identifier and where it came from.",
-                "pill":"entity"
+                "pill":"Entity"
             }
         ]
     }, {
