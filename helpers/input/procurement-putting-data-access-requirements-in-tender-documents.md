@@ -1,5 +1,3 @@
-# Putting data access requirements in tender documents
-
 ## Overview
 
 Data access requirements are a critical component when you are procuring new technology systems.
