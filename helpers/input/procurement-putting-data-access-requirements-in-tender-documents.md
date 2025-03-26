@@ -29,6 +29,7 @@ For example:
 * receiving encrypted email attachments
 
 > Application programming interface (API)
+>
 > A software component that allows applications and developers to access systems in a controlled, structured way. One common use is to allow applications to share data without granting direct access to databases or internal systems.
 
 ### Restrictions associated with accessing data
@@ -61,6 +62,7 @@ This could include:
 You need to make compromises around cost and its relation to data access.
 
 > Example
+> 
 > If you're a smaller organization of 50 people, you should not pay for a solution that supports 3,000 people to access data. There are different scales and pricing levels to consider.
 
 2. ### Build consensus within your organisation
@@ -94,6 +96,7 @@ Similar to the queued option, but with faster or real-time data retrieval.
 This typically involves real-time or near-real-time access to data through read-only API calls. It restricts you from interacting with it. You cannot modify or action anything apart from viewing the available data.
 
 > Example
+> 
 > If you work in the repairs team, a read-only view would simply display all repairs completed for a specific property.
 
 #### API access guaranteed for 'fair use'
@@ -103,6 +106,7 @@ This refers to policies that ensure API availability for normal usage patterns, 
 When accessing live data, you need to be up front about the expected use and get this into your agreement.
 
 > Example
+> 
 > A technology provider might offer an API with 'fair use' terms, such as allowing 100 free API calls per day for a small housing organization. Beyond that limit, the provider would charge for additional API access.
 
 ### Access to write or update data
