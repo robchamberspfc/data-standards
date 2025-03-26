@@ -47,8 +47,8 @@
                 "url": "procurement/open-documentation",
                 "description": "Making details of data interfaces available to organisations and their partners so that everyone can understand what is available."
             },{
-                "title": "Access standards",
-                "url": "procurement/access-standards",
+                "title": "Putting data access requirements in tender documents",
+                "url": "putting-data-access-requirements-in-tender-documents",
                 "description": "How to ensure the data is available at the time and in the ways you need it"
             }
         ]
