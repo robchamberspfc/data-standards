@@ -25,6 +25,8 @@ fs.readFile(`./helpers/new-pages.json`, 'utf8', (err, newPages) => {
 
             markdownExists = includes.indexOf(`_markdown-${newPages[i].fileName}.html`)
 
+            console.log(markdownExists)
+
             if (markdownExists != -1) {
 
                 //create folder structure
