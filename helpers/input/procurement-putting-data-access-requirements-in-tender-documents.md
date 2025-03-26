@@ -28,7 +28,7 @@ For example:
 * receiving automatic file exports to a secure server location  
 * receiving encrypted email attachments
 
-> Application programming interface (API)
+> **Application programming interface (API)**
 >
 > A software component that allows applications and developers to access systems in a controlled, structured way. One common use is to allow applications to share data without granting direct access to databases or internal systems.
 
@@ -47,7 +47,7 @@ These restrictions may also include how data is governed, including [security, u
 
 In the early stages of the procurement process, it’s important to:
 
-1. ### Identify your needs
+### 1. Identify your needs
 
 Not every interaction with a new system will require the same level of support. Therefore, it’s important to match those requirements to your needs.
 
@@ -61,55 +61,55 @@ This could include:
 
 You need to make compromises around cost and its relation to data access.
 
-> Example
+> **Example**
 > 
 > If you're a smaller organization of 50 people, you should not pay for a solution that supports 3,000 people to access data. There are different scales and pricing levels to consider.
 
-2. ### Build consensus within your organisation
+### 2. Build consensus within your organisation
 
 Once you identify your needs, you need to decide how many of your systems will need to be integrated with the system you are procuring. That will have an impact on the way you update systems and manage data.
 
 They will find it easier to challenge decisions if they understand the process you use to [manage priorities](https://www.local.gov.uk/sites/default/files/documents/LGA%20early%20careers%20guide%20-%20Managing%20Priorities.pdf) (PDF, 1 MB).
 
-3. ### Decide the frequency and volume of your data access requirements
+### 3. Decide the frequency and volume of your data access requirements
 
 Consider specifying what types of access vendors must support:
 
-### Data available on request
+#### Data available on request
 
 This is often the most basic level, where data is provided manually upon request rather than through an automated API. Normally, at no additional cost.
 
-### Scheduled data exports
+#### Scheduled data exports
 
 This involves setting up regular, automated exports of data at specified intervals. For example, daily, weekly or monthly.
 
-### Queued self-serve data export
+#### Queued self-serve data export
 
 It allows you to initiate data exports, but the process may take some time to complete.
 
-### Immediate self-serve data export
+#### Immediate self-serve data export
 
 Similar to the queued option, but with faster or real-time data retrieval.
 
-### Access to live data
+#### Access to live data
 
 This typically involves real-time or near-real-time access to data through read-only API calls. It restricts you from interacting with it. You cannot modify or action anything apart from viewing the available data.
 
-> Example
+> **Example**
 > 
 > If you work in the repairs team, a read-only view would simply display all repairs completed for a specific property.
 
-#### API access guaranteed for 'fair use'
+##### API access guaranteed for 'fair use'
 
 This refers to policies that ensure API availability for normal usage patterns, often with rate limiting to prevent abuse.
 
 When accessing live data, you need to be up front about the expected use and get this into your agreement.
 
-> Example
+> **Example**
 > 
 > A technology provider might offer an API with 'fair use' terms, such as allowing 100 free API calls per day for a small housing organization. Beyond that limit, the provider would charge for additional API access.
 
-### Access to write or update data
+#### Access to write or update data
 
 This is a higher level of access that allows systems to modify data through API calls, not just read it.
 
