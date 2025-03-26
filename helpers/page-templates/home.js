@@ -10,15 +10,13 @@ module.exports = (data) => {
 
             let pill = ''
 
-
             if (data.topSection[j].items[k].pill != null) {
-                pill = `<span class="badge text-bg-secondary p-2 rounded-0">${data.topSection[j].items[k].pill}</span>`
+                pill = `<span class="badge local p-2 rounded-0">${data.topSection[j].items[k].pill}</span>`
             }
 
             sections += `
-            <div class="col-12 col-md-4 ps-4 pe-4">
-                <div class="row pb-2">
-                    <div class="card mb-4 card-navigation rounded-0">
+            <div class="col col-12 col-lg-4 col-md-6 pb-4">
+                    <div class="card card-navigation rounded-0 h-100">
                         <div class="card-body">
                             <div class="col-md-10">
                                 <h3 class="card-text">
@@ -26,7 +24,9 @@ module.exports = (data) => {
                                     ${data.topSection[j].items[k].title}</a></h3>
                                 <p class="card-text">${data.topSection[j].items[k].description}</p>
                             </div>
-                            <div class="row pt-5 pb-0">
+                        </div>
+                        <div class="card-footer card-navigation border-0">
+                            <div class="row pb-0">
                                 <div class="col-md-8">
                                     <i class="bi bi-arrow-right-short h2"></i>
                                 </div>
@@ -34,11 +34,11 @@ module.exports = (data) => {
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>`
+                </div>`
         }
         topSection += `<h2 class="mt-5 mb-5">${data.topSection[j].name}</h2>
-                    <div class="row mb-3">${sections}
+                    <div class="row mb-3">
+                        ${sections}
                     </div>`
 
     }

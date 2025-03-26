@@ -16,17 +16,30 @@ module.exports = (data) => {
     cards = ''
 
     for (k = 0; k < data.tiles.length; k++) {
-        cards += `<div class="col-12 col-md-4 ps-4 pe-4">
-                    <div class="row">
-                        <div class="card mb-4 card-navigation rounded-0">
+
+        let pill = ''
+
+        if (data.tiles[k].pill != null) {
+            pill = `<span class="badge text-bg-secondary p-2 rounded-0">${data.topSection[j].items[k].pill}</span>`
+        }
+
+        cards += `
+                    <div class="col col-12 col-lg-4 col-md-6 pb-4">
+                        <div class="card mb-4 card-navigation rounded-0 h-100">
                             <div class="card-body">
-                                <div class="col-md-10">
+                                 <div class="col-md-10">
                                     <h2 class="h3 card-text">
-                                    <a href="${data.tiles[k].url}" class="stretched-link card-navigation">
-                                        ${data.tiles[k].title}</a></h2>
+                                     <a href="${data.tiles[k].url}" class="stretched-link card-navigation">
+                                            ${data.tiles[k].title}</a></h2>
                                     <p class="card-text">${data.tiles[k].description}</p>
                                 </div>
-                                <p class="pb-0 pt-5"><i class="bi bi-arrow-right-short h2"></i></p>
+                            </div>
+                            <div class="card-footer card-navigation border-0">
+                            <div class="row pb-0">
+                                <div class="col-md-8">
+                                    <i class="bi bi-arrow-right-short h2"></i>
+                                </div>
+                                <div class="col-md-4 mt-1">${pill}</div>
                             </div>
                         </div>
                     </div>
@@ -50,9 +63,9 @@ title: ${data.name}
                 <h1 class="mt-5 pt-4 mb-5 pb-4">${data.name}</h1>
             </div>
         </div>
-        <div class="row pt-3 pb-4 mt-5">
-                    ${cards}
-            </div>
+            <div class="row mb-3">
+             ${cards}
+             </div>
         </div>
     </div>
 </main>`
