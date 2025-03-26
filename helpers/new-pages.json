@@ -184,7 +184,7 @@
         "description": "Government advice is that all RESFTful APIs should be documented using the OpenAPI spec."
     }, {
         "title": "Putting data access requirements in tender documents",
-        "url": "access-standards",
+        "url": "putting-data-access-requirements-in-tender-documents",
         "description": "Specifies how your systems get or interact with data."
     }]
 }]
