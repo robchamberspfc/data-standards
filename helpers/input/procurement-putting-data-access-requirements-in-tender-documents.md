@@ -18,7 +18,9 @@ You need to be specific about your organisation's needs when deciding the ways y
 
 ## What to consider
 
+
 ### Ways you can access data
+
 
 Specifies how information is transferred from its source to your systems.
 
