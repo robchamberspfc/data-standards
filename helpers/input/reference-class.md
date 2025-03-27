@@ -1,6 +1,6 @@
 This page refers to HACT Model Version Main/3.5 published on 16 Jun 2022 00:00
 
-> Technical users who are really to apply this standard may choose to go straight to the [technical guidance](?tab=t.j2sltwmjz1yy)
+> Technical users who are ready to apply this standard may choose to go straight to the [technical guidance](?tab=t.j2sltwmjz1yy)
 
 ## Summary
 
@@ -18,7 +18,7 @@ A reference is a bit like the:
 * an email address, where the **@example.com** part shows which domain the **firstname.lastname** identifier is associated with  
 * a telephone number, where **country code** shows which country the **rest of the number** is from
 
-**![A stylised image of a credit card, showing the words Bank Name in the top right and a long credit card number across the middle. A label pointing to the bank name says: "The name of the bank shows who assigned the long number"A label pointing to the long number says: "The long number uniquely identifies this specific card"][image1]**
+**![A stylised image of a credit card, showing the words Bank Name in the top right and a long credit card number across the middle. A label pointing to the bank name says: "The name of the bank shows who assigned the long number"A label pointing to the long number says: "The long number uniquely identifies this specific card"](https://housing-data-standards.netlify.app/images/bank-card.jpg)**
 
 Reference is metadata, stored outside of the main table.
 

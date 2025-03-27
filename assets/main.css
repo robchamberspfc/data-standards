@@ -56,3 +56,7 @@ a[disabled] {
 a:focus,a:hover {
     text-decoration: solid;
 }
+
+img {
+    max-width: 90%;
+}
