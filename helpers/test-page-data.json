@@ -14,61 +14,46 @@
                 "title": "About this service",
                 "url": "about",
                 "description": ""
-            }, {
-                "title": "Case studies",
-                "url": "procurement",
-                "description": "",
-                "pill": "test"
             }
         ]
     }, {
-        "name": "Get started 2",
-        "items": [{
-                "title": "What are data standards?",
-                "url": "what-are-data-standards",
-                "description": ""
-            },
-            {
-                "title": "About this service",
-                "url": "about",
-                "description": ""
-            }, {
-                "title": "Case studies",
-                "url": "procurement",
-                "description": "",
-                "pill": "test"
-            }
-        ]
-    }],
-    "linkBlocks": [{
         "name": "Data standards",
         "items": [{
                 "title": "Person alert codes",
-                "url": "standards/person-alert-codes/"
+                "url": "standards/person-alert-codes/",
+                "description": "Flags tenants’ vulnerabilities to those visiting the property.",
+                "pill":"Code list"
             },
             {
                 "title": "Reference class",
-                "url": "standards/reference-class/"
+                "url": "standards/reference-class/",
+                "description": "Records an identifier and where it came from.",
+                "pill":"Entity"
             }
         ]
     }, {
         "name": "Procurement",
-        "items": [{
-                "title": "Access standards",
-                "url": "procurement/access-standards"
-            },
+        "items": [
             {
                 "title": "Essential API documentation",
-                "url": "procurement/api-documentation"
-            }, {
-                "title": "API documentation open to potential integrators",
-                "url": "procurement/open-documentation"
+                "url": "procurement/api-documentation",
+                "description": "Provide a reduced set of guidance / documentation for APIs in housing systems that cover critical elements."
             }, {
                 "title": "Describe APIs using OpenAI spec",
-                "url": "procurement/open-api"
+                "url": "procurement/open-api",
+                "description": "Government advice is that all RESFTful APIs should be documented using the OpenAPI spec."
+            }, {
+                "title": "API documentation open to integrators",
+                "url": "procurement/open-documentation",
+                "description": "Making details of data interfaces available to organisations and their partners so that everyone can understand what is available."
+            },{
+                "title": "Putting data access requirements in tender documents",
+                "url": "procurement/putting-data-access-requirements-in-tender-documents",
+                "description": "Specifies how your systems get or interact with data."
             }
         ]
-    }]
+    }],
+    "linkBlocks": []
 }, {
     "name": "About",
     "type": "basic",
@@ -114,10 +99,10 @@
     }],
     "related": []
 }, {
-    "name": "Access standards",
+    "name": "Putting data access requirements in tender documents",
     "type": "basic",
-    "location": "./procurement/access-standards",
-    "fileName": "access-standards",
+    "location": "./procurement/putting-data-access-requirements-in-tender-documents",
+    "fileName": "procurement-putting-data-access-requirements-in-tender-documents",
     "breadcrumb": [{
         "title": "Procurement",
         "url": "/procurement"
@@ -198,8 +183,8 @@
         "url": "open-api",
         "description": "Government advice is that all RESFTful APIs should be documented using the OpenAPI spec."
     }, {
-        "title": "Access standards",
-        "url": "access-standards",
-        "description": "How to ensure the data is available at the time and in the ways you need it"
+        "title": "Putting data access requirements in tender documents",
+        "url": "putting-data-access-requirements-in-tender-documents",
+        "description": "Specifies how your systems get or interact with data."
     }]
 }]

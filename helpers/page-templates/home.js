@@ -37,6 +37,7 @@ module.exports = (data) => {
                 </div>`
         }
         topSection += `<h2 class="mt-5 mb-5">${data.topSection[j].name}</h2>
+                    <p class="lead">${data.topSection[j].description}</p>
                     <div class="row mb-3">
                         ${sections}
                     </div>`
