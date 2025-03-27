@@ -18,7 +18,7 @@
             }
         ]
     }, {
-        "name": "Data standards",
+        "name": "Data standard components",
         "description": "",
         "items": [{
                 "title": "Person alert codes",
@@ -27,15 +27,15 @@
                 "pill": "Code list"
             },
             {
-                "title": "Reference class",
+                "title": "Reference",
                 "url": "standards/reference-class/",
                 "description": "Records an identifier and where it came from.",
                 "pill": "Entity"
             }
         ]
     }, {
-        "name": "Procurement",
-        "description": "",
+        "name": "Procurement and system integration",
+        "description": "Guidelines for integrating data access and API requirements into procurement processes.",
         "items": [{
             "title": "Essential API documentation",
             "url": "procurement/api-documentation",
