@@ -60,3 +60,7 @@ a:focus,a:hover {
 img {
     max-width: 90%;
 }
+
+.badge {
+    font-weight: normal !important;
+}

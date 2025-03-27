@@ -55,6 +55,8 @@ for (i = 0; i < files.length; i++) {
     //add styles
     html = html.replaceAll("<h2 ", '<h2 class="mt-5 mb-4" ');
     html = html.replaceAll("<h3", '<h3 class="mt-3 mb-3" ');
+    html = html.replaceAll("<h4", '<h4 class="mt-3 mb-3" ');
+    html = html.replaceAll("<h5", '<h5 class="mt-3 mb-3" ');
     html = html.replaceAll("<ul>", '<ul class="ms-4">');
     html = html.replaceAll("<table>", '<table class="table table-striped">');
     html = html.replaceAll("<thead>", '<thead class="thead-dark">');
@@ -65,6 +67,8 @@ for (i = 0; i < files.length; i++) {
       allowedClasses: {
         'h2': ['mt-5','mb-4'],
         'h3': ['mt-3','mb-3'],
+        'h4': ['mt-3','mb-3'],
+        'h5': ['mt-3','mb-3'],
         'ul': ['ms-4'],
         'table': ['table', 'table-striped'],
         'thead': ['thead-dark']
