@@ -19,7 +19,7 @@ module.exports = (data) => {
                     <div class="card card-navigation rounded-0 h-100">
                         <div class="card-body">
                             <div class="col-md-12">
-                                <h3 class="card-text h4">
+                                <h3 class="card-text fw-bold h4">
                                 <a href="${data.topSection[j].items[k].url}" class="stretched-link card-navigation">
                                     ${data.topSection[j].items[k].title}</a></h3>
                                 <p class="card-text">${data.topSection[j].items[k].description}</p>
@@ -72,8 +72,8 @@ title: Home
     <div class="container">
         <div class="row">
             <div class="col-md-8 mt-5">
-                <h1 class="display-3 fw-bold text-body-emphasis mt-5">Adopt social housing data standards</h1>
-                <p class="lead mt-5 mb-5">Information, guidance and resources to help social housing providers adopt data standards.</p>
+                <h1 class="display-3 fw-bold home-header mt-5">Adopt social housing data standards</h1>
+                <p class="lead home-lead mt-5 mb-5">Information, guidance and resources to help social housing providers adopt data standards.</p>
             </div>
         </div>
             ${topSection}

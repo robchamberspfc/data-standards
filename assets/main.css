@@ -22,9 +22,6 @@ blockquote {
 }
 
 .card-navigation:focus,.card-navigation:hover {
-    /* text-decoration: solid !important;
-    background-color: #006161 !important;
-    color: white !important;  */
     border-width: 2px;
     border-color: #000000;
     padding: -2px;
@@ -34,12 +31,6 @@ a.card-navigation {
     text-decoration: solid;
     color: black;
 }
-
-/* a.card-navigation:focus,a.card-navigation:hover {
-    background-color: black;
-    text-decoration: solid;
-    color: white;
-} */
 
 a:disabled,
 a[disabled] {
@@ -63,4 +54,16 @@ img {
 
 .badge {
     font-weight: normal !important;
+}
+
+.banner {
+    font-size:large;
+}
+
+.home-header {
+    color: #212529;
+}
+
+.home-lead {
+    font-size:x-large;
 }
