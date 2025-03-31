@@ -38,15 +38,15 @@
         "description": "Guidelines for integrating data access and API requirements into procurement processes.",
         "items": [{
             "title": "Minimal API documentation",
-            "url": "procurement-minimal-api-documentation",
+            "url": "procurement/minimal-api-documentation",
             "description": "Temp"
         }, {
             "title": "Describe APIs using the OpenAPI specification",
-            "url": "procurement/procurement-describe-APIs-using-the-OpenAPI-specification",
+            "url": "procurement/describe-APIs-using-the-OpenAPI-specification",
             "description": "Temp"
         }, {
             "title": "Prevent integration issues with early API documentation",
-            "url": "procurement/procurement-prevent-integration-issues-with-early-API-documentation",
+            "url": "procurement/prevent-integration-issues-with-early-API-documentation",
             "description": "Temp"
         }, {
             "title": "Putting data access requirements in tender documents",
