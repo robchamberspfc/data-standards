@@ -35,8 +35,13 @@ It can create risks you will, for example:
 
 By being able to see where each one came from, you can easily identify the unnecessary extra data (a process known as deduplication). Being confident of which data to trust also helps spot missing records and other gaps in the data.
 
-| Example A housing association in Manchester, which manages over 10,000 properties, has issues with duplicate records in its tenant database. This makes their communications inefficient, with some tenants receiving multiple letters for the same issue, while others are missed entirely. Additionally, repair requests are sometimes duplicated, causing confusion and delays in service. The housing association applies the reference entity to its data and adds sources for every identifier. It can now identify the duplicates, and set up its communications and repairs databases to use only the correct identifier in each instance.  This saves them time and reduces their workload. |
-| :---- |
+> **Example**
+>
+> A housing association in Manchester, which manages over 10,000 properties, has issues with duplicate records in its tenant database. This makes their communications inefficient, with some tenants receiving multiple letters for the same issue, while others are missed entirely. Additionally, repair requests are sometimes duplicated, causing confusion and delays in service.
+>
+> The housing association applies the reference entity to its data and adds sources for every identifier. It can now identify the duplicates, and set up its communications and repairs databases to use only the correct identifier in each instance.
+>
+> This saves them time and reduces their workload.
 
 ### Capture new data in the right place
 
@@ -44,8 +49,13 @@ When new information comes into the system, for example when a tenant telephones
 
 If reference is used and deduplication has been done on the data, staff can be confident they only have access to reliable entries.
 
-| Example A large housing association in London has a dataset of assets that has become messy over time. When they capture new data through processes like building surveys or reports from repairs people, it’s not clear where to add the data, and it’s making things even messier. This is having impacts on every aspect of the service.  The housing association applies the reference entity to its data and carries out processes like deduplication and disambiguation. Now whenever it gathers new data it can be confident it is adding it to the correct record.  This saves them time and reduces their workload. |
-| :---- |
+> **Example**
+>
+> A large housing association in London has a dataset of assets that has become messy over time. When they capture new data through processes like building surveys or reports from repairs people, it’s not clear where to add the data, and it’s making things even messier. This is having impacts on every aspect of the service.
+>
+> The housing association applies the reference entity to its data and carries out processes like deduplication and disambiguation. Now whenever it gathers new data it can be confident it is adding it to the correct record.
+>
+> This saves them time and reduces their workload.
 
 ### Distinguish between identifiers 
 
@@ -61,8 +71,13 @@ These can create confusion within a dataset.
 
 Using reference on each identifier makes it easy to sort through to find relevant data on the specific identifier you are interested in.
 
-| Example A housing association in the Northeast is getting confused between different kinds of records. The identifiers are similar in many cases. This slows down many kinds of data work. The housing association applies the reference entity to its data and adds the sources for each identifier. Based on the source of the data it is much easier to understand what kind of thing it represents.  This saves them time and reduces their workload. |
-| :---- |
+> **Example**
+>
+> A housing association in the Northeast is getting confused between different kinds of records. The identifiers are similar in many cases. This slows down many kinds of data work.
+>
+> The housing association applies the reference entity to its data and adds the sources for each identifier. Based on the source of the data it is much easier to understand what kind of thing it represents.
+>
+> This saves them time and reduces their workload.
 
 ### See whether an identifier is official
 
@@ -72,8 +87,13 @@ A common example is the unique property reference number (UPRN), which is offici
 
 Reference makes it possible to identify the official entries.
 
-| Example A housing association in Cornwall with 15,000 properties has spotted a lot of UPRNs in its data that it suspects are not from Geoplace LLPG. It has noticed that when its system generates identifiers automatically, it’s labelling them as UPRN without checking they are really from Geoplace. People trust the data as official when it actually is not.  The housing association applies the reference entity to its data and cross-references it against data from Geoplace LLPG. It can now assign a source to the official ones, and know that these are the only ones to trust from now on. If it does not know the sources of the identifiers that are inaccurately labelled as UPRNs, it can either replace the UPRN label, find out the real source or add a note in the description attribute of the reference entity to flag that these should not be trusted. This saves them time and reduces their workload. |
-| :---- |
+> **Example**
+>
+> A housing association in Cornwall with 15,000 properties has spotted a lot of UPRNs in its data that it suspects are not from Geoplace LLPG. It has noticed that when its system generates identifiers automatically, it’s labelling them as UPRN without checking they are really from Geoplace. People trust the data as official when it actually is not.
+>
+> The housing association applies the reference entity to its data and cross-references it against data from Geoplace LLPG. It can now assign a source to the official ones, and know that these are the only ones to trust from now on. If it does not know the sources of the identifiers that are inaccurately labelled as UPRNs, it can either replace the UPRN label, find out the real source or add a note in the description attribute of the reference entity to flag that these should not be trusted.
+>
+> This saves them time and reduces their workload.
 
 ### Share data between systems and organisations, or through APIs
 
@@ -83,8 +103,19 @@ You can add a column for a cross-system identifier, such as unique property refe
 
 The same approach can help organisations share accurate and usable data between them, either directly or through application program interfaces (APIs).
 
-| Example  A small housing association in the Midlands has messy data in many of the ways listed above. It cannot confidently: combine data within the systems it uses share data with other organisations such as repairs contractors provide its data through APIs for use elsewhere It is currently merging with another small local housing association, so these problems will create an even messier shared database.  The housing association applies the reference entity to its data and adds sources for every identifier. It can now sort out all the messes and combine the data with confidence, knowing records will match up correctly. This saves them time and reduces their workload. |
-| :---- |
+> **Example**
+>
+> A small housing association in the Midlands has messy data in many of the ways listed above. It cannot confidently:
+> 
+>   * combine data within the systems it uses
+>   * share data with other organisations such as repairs contractors
+>   * provide its data through APIs for use elsewhere
+>   
+> It is currently merging with another small local housing association, so these problems will create an even messier shared database.
+>
+> The housing association applies the reference entity to its data and adds sources for every identifier. It can now sort out all the messes and combine the data with confidence, knowing records will match up correctly.
+>
+> This saves them time and reduces their workload.
 
 ## Benefits to tenants
 
