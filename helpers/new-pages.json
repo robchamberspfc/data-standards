@@ -136,10 +136,10 @@
     }],
     "related": []
 }, {
-    "name": "Make a case for adopting the reference standard",
+    "name": "Make a case for adopting the reference entity",
     "type": "basic",
-    "location": "./standards/reference-class/case-for",
-    "fileName": "reference-class-case-for",
+    "location": "./standards/reference-make-a-case-for-adopting-the-reference-entity",
+    "fileName": "reference-make-a-case-for-adopting-the-reference-entity",
     "breadcrumb": [{
         "title": "Standards",
         "url": "/standards"
