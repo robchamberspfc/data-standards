@@ -46,7 +46,7 @@
             "description": "Government advice is that all RESFTful APIs should be documented using the OpenAPI spec."
         }, {
             "title": "Prevent integration issues with early API documentation",
-            "url": "procurement/procurement-open-documentation.md to procurement-prevent-integration-issues-with-early-API-documentation.md",
+            "url": "procurement/procurement-prevent-integration-issues-with-early-API-documentation",
             "description": "Temp"
         }, {
             "title": "Putting data access requirements in tender documents",
