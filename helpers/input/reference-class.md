@@ -1,4 +1,4 @@
-This page refers to [Housing Associations Charitable Trust (HACT) UK Housing Data Standards (v3.5)] (https://hact.org.uk/tools-and-services/uk-housing-data-standards/), published on 16 June 2022.
+This page refers to [Housing Associations Charitable Trust (HACT) UK Housing Data Standards (v3.5)](https://hact.org.uk/tools-and-services/uk-housing-data-standards/), published on 16 June 2022.
 
 > Technical users who are ready to apply this standard may choose to go straight to the [technical guidance](?tab=t.j2sltwmjz1yy)
 
