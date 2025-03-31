@@ -38,8 +38,7 @@ To achieve this, we recommend providing them with:
 
 ### A vision for the future
 
-We believe this work makes it possible for the sector to have high ambitions for its future.  
-Social housing providers would have a consistent and comprehensive picture of their tenants and homes. This would allow them to deliver better services.
+We believe this work makes it possible for the sector to have high ambitions for its future. Social housing providers would have a consistent and comprehensive picture of their tenants and homes. This would allow them to deliver better services.
 
 Data would be:
 
