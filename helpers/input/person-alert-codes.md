@@ -1,14 +1,10 @@
-## Contents
+This page refers to [Housing Associations Charitable Trust (HACT) UK Housing Data Standards (v3.5)](https://hact.org.uk/tools-and-services/uk-housing-data-standards/), published on 16 June 2022\.
 
-— [Summary](#summary)  
-— [Who is this standard for](#who-is-this-standard-for)  
-— [How it benefits your organisation](#how-it-benefits-your-organisation)  
-— [Organisations who implemented this standard](#organisations-who-implemented-this-standard)  
-— [Case studies](#case-studies)  
-— [Status and current usage](#status-and-current-usage)  
-— [Download person alert codes](#download-person-alert-codes)
+> Technical users who are really to apply this standard may choose to go straight to the [technical guidance](http://xx).
 
-## Summary {#summary}
+## Summary
+
+Person alert codes is a code list and part of the [Alert Regarding Person entity](https://hact.org.uk/tools-and-services/uk-housing-data-standards/).
 
 A person alert code flags tenants’ vulnerabilities and necessary adjustments that need to be considered by anyone visiting or working at the property.
 
@@ -18,14 +14,14 @@ Examples of categories include:
 * hearing difficulties  
 * disability 
 
-Examples of alerts may include:
+Examples of alerts include:
 
 * don’t visit the property alone  
-* British Sign Language (BSL) interpreter needed
+* tenant may not be fluent in English
 
-## Who is this standard for {#who-is-this-standard-for}
+## Who is this code list for
 
-This standard is useful for teams who are working to ensure their tenants' needs are considered and catered for.
+This code list is useful for teams who are working to ensure their tenants' needs are considered and catered for.
 
 Examples of teams might include:
 
@@ -33,7 +29,11 @@ Examples of teams might include:
 * housing officers  
 * surveyors
 
-## How it benefits your organisation {#how-it-benefits-your-organisation}
+## How it benefits your organisation
+
+Capturing tenant information in different ways makes it difficult to get a clear, consistent view of individual needs and circumstances.
+
+Imagine a scenario where a repairs team needs to quickly assess a tenant's specific needs before a repair visit. Without standardised alert codes, crucial information about accessibility requirements, communication preferences or vulnerable circumstances might be overlooked.
 
 By providing key information at the right time, person alert codes can help you:
 
@@ -41,32 +41,4 @@ By providing key information at the right time, person alert codes can help you:
 * adjust the way you engage with tenants  
 * enhance tenant satisfaction by reducing failed repairs visits
 
-## Organisations who implemented this standard {#organisations-who-implemented-this-standard}
-
-### Hackney Council
-
-Adopted in 2023  
-\> Get in touch
-
-### Orbit Housing
-
-Adopted in 2025  
-\> Get in touch
-
-## Case studies {#case-studies}
-
-* [Using property identifiers to locate vulnerable people in Sedgemoor District in Somerset](https://www.local.gov.uk/case-studies/using-property-identifiers-locate-vulnerable-people-sedgemoor-district-somerset)
-
-## Status and current usage {#status-and-current-usage}
-
-| Ready to use |
-| :---- |
-
-| Reference | Version | Published | Next Review |
-| :---- | :---- | :---- | :---- |
-| PAC-01 | v3.5 | August 2024 | December 2025 |
-
-\> [View change history for person alert codes](http://x)  
-\> Roadmap
-
-## [Download person alert codes](?tab=t.hbsbksyx2fby) {#download-person-alert-codes}
+[Read more about the benefits of adopting this code list](http://xx)
