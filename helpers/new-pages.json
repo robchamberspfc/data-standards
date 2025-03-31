@@ -8,7 +8,7 @@
         "description": "",
         "items": [{
                 "title": "About this project",
-                "url": "about",
+                "url": "about-this-project",
                 "description": ""
             },
             {
@@ -56,10 +56,10 @@
     }],
     "linkBlocks": []
 }, {
-    "name": "About",
+    "name": "About this project",
     "type": "basic",
-    "location": "./about",
-    "fileName": "about",
+    "location": "./about-this-project",
+    "fileName": "about-this-project",
     "breadcrumb": [],
     "related": []
 }, {
