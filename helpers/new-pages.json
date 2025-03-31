@@ -37,9 +37,9 @@
         "name": "Procurement and system integration",
         "description": "Guidelines for integrating data access and API requirements into procurement processes.",
         "items": [{
-            "title": "Essential API documentation",
-            "url": "procurement/api-documentation",
-            "description": "Provide a reduced set of guidance / documentation for APIs in housing systems that cover critical elements."
+            "title": "Minimal API documentation",
+            "url": "procurement-minimal-api-documentation",
+            "description": "Temp"
         }, {
             "title": "Describe APIs using the OpenAPI specification",
             "url": "procurement/procurement-describe-APIs-using-the-OpenAPI-specification",
@@ -80,10 +80,10 @@
     }],
     "related": []
 }, {
-    "name": "Essential API documentation",
+    "name": "Minimal API documentation",
     "type": "basic",
-    "location": "./procurement/api-documentation",
-    "fileName": "procurement-api-documentation",
+    "location": "./procurement/procurement-minimal-api-documentation",
+    "fileName": "procurement-minimal-api-documentation",
     "breadcrumb": [{
         "title": "Procurement",
         "url": "/procurement"
@@ -176,9 +176,9 @@
     "fileName": "procurement",
     "breadcrumb": [],
     "tiles": [{
-        "title": "Essential API documentation",
-        "url": "api-documentation",
-        "description": "Provide a reduced set of guidance / documentation for APIs in housing systems that cover critical elements."
+        "title": "Miniaml API documentation",
+        "url": "minimal-api-documentation",
+        "description": "Temp"
     }, {
         "title": "Prevent integration issues with early API dcumentation",
         "url": "prevent-integration-issues-with-early-API-documentation",
