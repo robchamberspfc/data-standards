@@ -7,13 +7,13 @@
         "name": "Get started",
         "description": "",
         "items": [{
-                "title": "What are data standards?",
-                "url": "what-are-data-standards",
+                "title": "About this project",
+                "url": "about",
                 "description": ""
             },
             {
-                "title": "About this project",
-                "url": "about",
+                "title": "What are data standards?",
+                "url": "what-are-data-standards",
                 "description": ""
             }
         ]
@@ -21,16 +21,16 @@
         "name": "Data standard components",
         "description": "",
         "items": [{
-                "title": "Person alert codes",
-                "url": "standards/person-alert-codes/",
-                "description": "Flags tenants’ vulnerabilities to those visiting the property.",
-                "pill": "Code list"
-            },
-            {
                 "title": "Reference",
                 "url": "standards/reference/",
                 "description": "Records an identifier and where it came from.",
                 "pill": "Entity"
+            },
+            {
+                "title": "Person alert codes",
+                "url": "standards/person-alert-codes/",
+                "description": "Flags tenants’ vulnerabilities to those visiting the property.",
+                "pill": "Code list"
             }
         ]
     }, {
