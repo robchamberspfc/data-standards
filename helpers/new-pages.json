@@ -28,7 +28,7 @@
             },
             {
                 "title": "Reference",
-                "url": "standards/reference-class/",
+                "url": "standards/reference/",
                 "description": "Records an identifier and where it came from.",
                 "pill": "Entity"
             }
@@ -128,8 +128,8 @@
 }, {
     "name": "Reference",
     "type": "basic",
-    "location": "./standards/reference-class",
-    "fileName": "reference-class",
+    "location": "./standards/reference",
+    "fileName": "reference",
     "breadcrumb": [{
         "title": "Standards",
         "url": "/standards"
@@ -144,8 +144,8 @@
         "title": "Standards",
         "url": "/standards"
     }, {
-        "title": "Reference class",
-        "url": "/standards/reference-class"
+        "title": "Reference",
+        "url": "/standards/reference"
     }],
     "related": []
 }, {
@@ -160,8 +160,8 @@
         "url": "person-alert-codes",
         "description": ""
     }, {
-        "title": "Reference class",
-        "url": "reference-class",
+        "title": "Reference",
+        "url": "reference",
         "description": ""
     }]
 }, {
