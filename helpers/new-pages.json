@@ -72,8 +72,8 @@
 }, {
     "name": "Prevent integration issues with early API documentation",
     "type": "basic",
-    "location": "./procurement/procurement-prevent-integration-issues-with-early-API-documentation.md",
-    "fileName": "procurement-prevent-integration-issues-with-early-API-documentation.md",
+    "location": "./procurement/procurement-prevent-integration-issues-with-early-API-documentation",
+    "fileName": "procurement-prevent-integration-issues-with-early-API-documentation",
     "breadcrumb": [{
         "title": "Procurement",
         "url": "/procurement"
@@ -181,7 +181,7 @@
         "description": "Provide a reduced set of guidance / documentation for APIs in housing systems that cover critical elements."
     }, {
         "title": "Prevent integration issues with early API dcumentation",
-        "url": "procurement-prevent-integration-issues-with-early-API-documentation.md",
+        "url": "procurement-prevent-integration-issues-with-early-API-documentation",
         "description": "Temp"
     }, {
         "title": "Describe APIs using OpenAI spec",
