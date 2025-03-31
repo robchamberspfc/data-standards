@@ -16,8 +16,13 @@ For example, you might have two records of tenants that show the same name. That
 
 Reference allows you to decide whether to trust the identifiers used and therefore work out whether they are the same person or different people.
 
-| Example A small housing association in the Midlands has spotted ambiguous data in its tenant records. For instance, several tenants share common names such as "John Smith". This creates problems in identifying the correct individual for rent payments, maintenance requests, and tenant communications. Additionally, some records lack sufficient detail, such as incomplete addresses or missing contact information, further complicating matters.  The housing association applies the reference entity to its data and adds sources for every identifier. It can now identify whether individuals with the same name are really the same person. And where there’s gappy data it can first combine matching records to consolidate the data before it explores ways to fill any remaining gaps.  This saves them time and reduces their workload. |
-| :---- |
+> **Example**
+>
+> A small housing association in the Midlands has spotted ambiguous data in its tenant records. For instance, several tenants share common names such as "John Smith". This creates problems in identifying the correct individual for rent payments, maintenance requests, and tenant communications. Additionally, some records lack sufficient detail, such as incomplete addresses or missing contact information, further complicating matters.
+>
+> The housing association applies the reference entity to its data and adds sources for every identifier. It can now identify whether individuals with the same name are really the same person. And where there’s gappy data it can first combine matching records to consolidate the data before it explores ways to fill any remaining gaps.
+>
+> This saves them time and reduces their workload.
 
 ### Spot duplicates and gaps
 
