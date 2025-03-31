@@ -41,9 +41,9 @@
             "url": "procurement/api-documentation",
             "description": "Provide a reduced set of guidance / documentation for APIs in housing systems that cover critical elements."
         }, {
-            "title": "Describe APIs using OpenAI spec",
-            "url": "procurement/open-api",
-            "description": "Government advice is that all RESFTful APIs should be documented using the OpenAPI spec."
+            "title": "Describe APIs using the OpenAPI specification",
+            "url": "procurement/procurement-describe-APIs-using-the-OpenAPI-specification",
+            "description": "Temp"
         }, {
             "title": "Prevent integration issues with early API documentation",
             "url": "procurement/procurement-prevent-integration-issues-with-early-API-documentation",
@@ -90,10 +90,10 @@
     }],
     "related": []
 }, {
-    "name": "Describe APIs using OpenAI spec",
+    "name": "Describe APIs using the OpenAPI specification",
     "type": "basic",
-    "location": "./procurement/open-api",
-    "fileName": "procurement-open-api",
+    "location": "./procurement/procurement-describe-APIs-using-the-OpenAPI-specification",
+    "fileName": "procurement-describe-APIs-using-the-OpenAPI-specification",
     "breadcrumb": [{
         "title": "Procurement",
         "url": "/procurement"
@@ -181,12 +181,12 @@
         "description": "Provide a reduced set of guidance / documentation for APIs in housing systems that cover critical elements."
     }, {
         "title": "Prevent integration issues with early API dcumentation",
-        "url": "procurement-prevent-integration-issues-with-early-API-documentation",
+        "url": "prevent-integration-issues-with-early-API-documentation",
         "description": "Temp"
     }, {
-        "title": "Describe APIs using OpenAI spec",
-        "url": "open-api",
-        "description": "Government advice is that all RESFTful APIs should be documented using the OpenAPI spec."
+        "title": "Describe APIs using the OpenAPI specification",
+        "url": "describe-APIs-using-the-OpenAPI-specification",
+        "description": "Temp"
     }, {
         "title": "Putting data access requirements in tender documents",
         "url": "putting-data-access-requirements-in-tender-documents",
