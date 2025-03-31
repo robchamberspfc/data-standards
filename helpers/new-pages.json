@@ -136,8 +136,10 @@
     }],
     "related": [{
         "title": "Make a case for adopting the reference entity",
-        "url": "/standards/reference/reference-make-a-case-for-adopting-the-reference-entity"
-}, {
+        "url": "/standards/reference-make-a-case-for-adopting-the-reference-entity"
+    }]
+}, 
+{
     "name": "Make a case for adopting the reference entity",
     "type": "basic",
     "location": "./standards/reference-make-a-case-for-adopting-the-reference-entity",
