@@ -42,11 +42,11 @@
             "description": "Temp"
         }, {
             "title": "Describe APIs using the OpenAPI specification",
-            "url": "procurement/describe-APIs-using-the-OpenAPI-specification",
+            "url": "procurement/describe-apis-using-the-openapi-specification",
             "description": "Temp"
         }, {
             "title": "Prevent integration issues with early API documentation",
-            "url": "procurement/prevent-integration-issues-with-early-API-documentation",
+            "url": "procurement/prevent-integration-issues-with-early-api-documentation",
             "description": "Temp"
         }, {
             "title": "Putting data access requirements in tender documents",
@@ -72,8 +72,8 @@
 }, {
     "name": "Prevent integration issues with early API documentation",
     "type": "basic",
-    "location": "./procurement/procurement-prevent-integration-issues-with-early-API-documentation",
-    "fileName": "procurement-prevent-integration-issues-with-early-API-documentation",
+    "location": "./procurement/procurement-prevent-integration-issues-with-early-api-documentation",
+    "fileName": "procurement-prevent-integration-issues-with-early-api-documentation",
     "breadcrumb": [{
         "title": "Procurement",
         "url": "/procurement"
@@ -92,8 +92,8 @@
 }, {
     "name": "Describe APIs using the OpenAPI specification",
     "type": "basic",
-    "location": "./procurement/procurement-describe-APIs-using-the-OpenAPI-specification",
-    "fileName": "procurement-describe-APIs-using-the-OpenAPI-specification",
+    "location": "./procurement/procurement-describe-apis-using-the-openapi-specification",
+    "fileName": "procurement-describe-apis-using-the-openapi-specification",
     "breadcrumb": [{
         "title": "Procurement",
         "url": "/procurement"
@@ -181,11 +181,11 @@
         "description": "Temp"
     }, {
         "title": "Prevent integration issues with early API dcumentation",
-        "url": "prevent-integration-issues-with-early-API-documentation",
+        "url": "prevent-integration-issues-with-early-api-documentation",
         "description": "Temp"
     }, {
         "title": "Describe APIs using the OpenAPI specification",
-        "url": "describe-APIs-using-the-OpenAPI-specification",
+        "url": "describe-apis-using-the-openapi-specification",
         "description": "Temp"
     }, {
         "title": "Putting data access requirements in tender documents",
