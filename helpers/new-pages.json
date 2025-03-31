@@ -72,7 +72,7 @@
 }, {
     "name": "Prevent integration issues with early API documentation",
     "type": "basic",
-    "location": "./procurement/procurement-prevent-integration-issues-with-early-api-documentation",
+    "location": "./procurement/prevent-integration-issues-with-early-api-documentation",
     "fileName": "procurement-prevent-integration-issues-with-early-api-documentation",
     "breadcrumb": [{
         "title": "Procurement",
@@ -82,7 +82,7 @@
 }, {
     "name": "Minimal API documentation",
     "type": "basic",
-    "location": "./procurement/procurement-minimal-api-documentation",
+    "location": "./procurement/minimal-api-documentation",
     "fileName": "procurement-minimal-api-documentation",
     "breadcrumb": [{
         "title": "Procurement",
@@ -92,7 +92,7 @@
 }, {
     "name": "Describe APIs using the OpenAPI specification",
     "type": "basic",
-    "location": "./procurement/procurement-describe-apis-using-the-openapi-specification",
+    "location": "./procurement/describe-apis-using-the-openapi-specification",
     "fileName": "procurement-describe-apis-using-the-openapi-specification",
     "breadcrumb": [{
         "title": "Procurement",
