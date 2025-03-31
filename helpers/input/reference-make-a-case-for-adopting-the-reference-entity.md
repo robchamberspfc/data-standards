@@ -1,5 +1,3 @@
-# Make a case for adopting the reference entity
-
 This page refers to [Housing Associations Charitable Trust (HACT) UK Housing Data Standards (v3.5)](https://hact.org.uk/tools-and-services/uk-housing-data-standards/), published on 16 June 2022\.
 
 ## Benefits of adopting reference
