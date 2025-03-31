@@ -18,8 +18,8 @@ Explain to technology suppliers that early API documentation is essential to pla
 
 Once you get the API structure from your technology supplier, there are two possible pathways:
 
-* For RESTful APIs, the most common in the housing sector, use the [OpenAPI specification](http://xxx).  
-* For non-RESTful APIs, like GraphQL, use the [minimal API documentation](http://xxx).
+* For RESTful APIs, the most common in the housing sector, use the [OpenAPI specification]([http://xxx](https://housing-data-standards.netlify.app/procurement/describe-apis-using-the-openapi-specification/)).  
+* For non-RESTful APIs, like GraphQL, use the [minimal API documentation]([http://xxx](https://housing-data-standards.netlify.app/procurement/minimal-api-documentation/)).
 
 > The choice isn't about preference, but rather about which type of API is being used. Certain APIs can't be documented using the Open API specification due to their different structure and request methods.
 
