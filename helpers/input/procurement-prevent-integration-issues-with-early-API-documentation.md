@@ -10,11 +10,11 @@ It can help you:
 
 ## Getting started
 
-1. ### Request API documentation from your supplier before signing a contract 
+### 1. Request API documentation from your supplier before signing a contract 
 
 Explain to technology suppliers that early API documentation is essential to plan your integration. You need to understand how they look like, how they are structured and how you can access them.
 
-2. ### Use the correct specification to document your API
+### 2. Use the correct specification to document your API
 
 Once you get the API structure from your technology supplier, there are two possible pathways:
 
@@ -32,6 +32,6 @@ Once you get the API structure from your technology supplier, there are two poss
 * Availability and performance expectations or restrictions  
 * Whether you want it to be made publicly available
 
-3. ### Share the documentation with other technology suppliers
+### 3. Share the documentation with other technology suppliers
 
 This ensures all dependencies and integrations can be planned properly from the start of the project.
