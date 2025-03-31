@@ -176,9 +176,9 @@
     "fileName": "procurement",
     "breadcrumb": [],
     "tiles": [{
-        "title": "Minimal API documentation",
-        "url": "minimal-api-documentation",
-        "description": "Provides API guidance when the OpenAPI specification isn't suitable."
+        "title": "Putting data access requirements in tender documents",
+        "url": "putting-data-access-requirements-in-tender-documents",
+        "description": "Specifies how your systems get or interact with data."
     }, {
         "title": "Prevent integration issues with early API documentation",
         "url": "prevent-integration-issues-with-early-api-documentation",
@@ -188,8 +188,8 @@
         "url": "describe-apis-using-the-openapi-specification",
         "description": "Ensures consistency in how you document RESTful APIs."
     }, {
-        "title": "Putting data access requirements in tender documents",
-        "url": "putting-data-access-requirements-in-tender-documents",
-        "description": "Specifies how your systems get or interact with data."
+        "title": "Minimal API documentation",
+        "url": "minimal-api-documentation",
+        "description": "Provides API guidance when the OpenAPI specification isn't suitable."
     }]
 }]
