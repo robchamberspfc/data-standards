@@ -45,9 +45,9 @@
             "url": "procurement/open-api",
             "description": "Government advice is that all RESFTful APIs should be documented using the OpenAPI spec."
         }, {
-            "title": "API documentation open to integrators",
-            "url": "procurement/open-documentation",
-            "description": "Making details of data interfaces available to organisations and their partners so that everyone can understand what is available."
+            "title": "Prevent integration issues with early API documentation",
+            "url": "procurement/procurement-open-documentation.md to procurement-prevent-integration-issues-with-early-API-documentation.md",
+            "description": "Temp"
         }, {
             "title": "Putting data access requirements in tender documents",
             "url": "procurement/putting-data-access-requirements-in-tender-documents",
@@ -70,10 +70,10 @@
     "breadcrumb": [],
     "related": []
 }, {
-    "name": "API documentation open to potential integrators",
+    "name": "Prevent integration issues with early API documentation",
     "type": "basic",
-    "location": "./procurement/open-documentation",
-    "fileName": "procurement-open-documentation",
+    "location": "./procurement/procurement-prevent-integration-issues-with-early-API-documentation.md",
+    "fileName": "procurement-prevent-integration-issues-with-early-API-documentation.md",
     "breadcrumb": [{
         "title": "Procurement",
         "url": "/procurement"
@@ -180,9 +180,9 @@
         "url": "api-documentation",
         "description": "Provide a reduced set of guidance / documentation for APIs in housing systems that cover critical elements."
     }, {
-        "title": "Open documentation",
-        "url": "open-documentation",
-        "description": "Making details of data interfaces available to organisations and their partners so that everyone can understand what is available."
+        "title": "Prevent integration issues with early API dcumentation",
+        "url": "procurement-prevent-integration-issues-with-early-API-documentation.md",
+        "description": "Temp"
     }, {
         "title": "Describe APIs using OpenAI spec",
         "url": "open-api",
