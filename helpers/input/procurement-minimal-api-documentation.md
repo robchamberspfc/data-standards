@@ -1,6 +1,6 @@
 ## Summary
 
-It can be referred to as a “catch-all” option for APIs and serves as the minimum documentation standard when the [OpenAPI specification]([http://xxx](https://housing-data-standards.netlify.app/procurement/describe-apis-using-the-openapi-specification/)) isn’t suitable.
+It can be referred to as a “catch-all” option for APIs and serves as the minimum documentation standard when the [OpenAPI specification](https://housing-data-standards.netlify.app/procurement/describe-apis-using-the-openapi-specification/) isn’t suitable.
 
 It provides a reduced set of guidance and documentation for APIs that cover critical elements for usage and understanding. For example, data interaction and extraction. 
 
