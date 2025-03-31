@@ -49,7 +49,7 @@ It can also improve things for internal teams, including:
 * housing officers  
 * management
 
-[Read more about how adopting this entity benefits these teams](?tab=t.5um92sahxwmk#heading=h.qcg9qynnrad1)
+[Read more about how adopting this entity benefits these teams](https://housing-data-standards.netlify.app/standards/reference-make-a-case-for-adopting-the-reference-entity/)
 
 ## How it benefits your organisation
 
@@ -64,7 +64,7 @@ Using the reference entity can help cleanse these sorts of messes, by making it 
 * see whether an identifier is official  
 * share data between systems and organisations, or through APIs
 
-[Read more about the benefits of adopting this entity](?tab=t.5um92sahxwmk#heading=h.hlocrn6ep95z)
+[Read more about the benefits of adopting this entity](https://housing-data-standards.netlify.app/standards/reference-make-a-case-for-adopting-the-reference-entity/)
 
 > **Application Programming Interface (API)**
 >
