@@ -1,5 +1,3 @@
-# Make a case for adopting person alert codes
-
 This page refers to [Housing Associations Charitable Trust (HACT) UK Housing Data Standards (v3.5)](https://hact.org.uk/tools-and-services/uk-housing-data-standards/), published on 16 June 2022\.
 
 ## Benefits of adopting person alert codes
@@ -20,8 +18,12 @@ Teams need to know of any potential risks before visiting a property. They shoul
 
 Without this, teams may struggle to meet tenants' needs or protect their workforce adequately.
 
-| Example  A small housing association in Wales manages multiple residential properties and provides social housing for vulnerable tenants. One of their tenants, has a history of violent behaviour towards staff. A person alert code flags this tenant as engaging in ‘anti-social behaviour’, which prompts the housing association to adjust their approach by, for example: not visiting the property alone requesting police assistance, if needed |
-| :---- |
+> **Example**
+>
+> A small housing association in Wales manages multiple residential properties and provides social housing for vulnerable tenants. One of their tenants, has a history of violent behaviour towards staff. A person alert code flags this tenant as engaging in ‘anti-social behaviour’, which prompts the housing association to adjust their approach by, for example:
+> 
+> * not visiting the property alone
+> * requesting police assistance, if needed
 
 ### Reduces failed repairs visits
 
@@ -31,8 +33,12 @@ Teams often lack the information needed to schedule and carry out appointments e
 * additional costs  
 * tenant dissatisfaction
 
-| Example  A tenant has hearing difficulties, leading to repeated failed repair visits because they cannot hear the doorbell or phone calls from contractors. A person alert code flags this tenant as having ‘hearing difficulties’, which prompts the housing association to adjust their approach by, for example: using alternative communication methods, such as text messages providing advance notice of visits via letters |
-| :---- |
+> **Example**
+>
+> A tenant has hearing difficulties, leading to repeated failed repair visits because they cannot hear the doorbell or phone calls from contractors. A person alert code flags this tenant as having ‘hearing difficulties’, which prompts the housing association to adjust their approach by, for example:
+> 
+> * using alternative communication methods, such as text messages
+> * providing advance notice of visits via letters
 
 ## Case studies
 
