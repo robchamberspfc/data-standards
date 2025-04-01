@@ -1,6 +1,6 @@
 This page refers to [Housing Associations Charitable Trust (HACT) UK Housing Data Standards (v3.5)](https://hact.org.uk/tools-and-services/uk-housing-data-standards/), published on 16 June 2022.
 
-> Technical users who are ready to apply this standard may choose to go straight to the [technical guidance](?tab=t.j2sltwmjz1yy)
+> Technical users who are ready to apply this standard may choose to go straight to the [technical guidance](https://housing-data-standards.netlify.app/standards/technical-guidance-for-reference/)
 
 ## Summary
 
@@ -31,7 +31,7 @@ Reference has attributes that show:
 * what role the source organisation has, such as property manager or facility manager
 * any important background about the reference, for example that it is a barcode for something physical 
 
-[See the technical guidance for the attributes](?tab=t.j2sltwmjz1yy)
+[See the technical guidance for the attributes](https://housing-data-standards.netlify.app/standards/technical-guidance-for-reference/)
 
 ## Who reference is for
 
