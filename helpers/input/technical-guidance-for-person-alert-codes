@@ -1,1 +1,40 @@
-Test
+This page refers to [Housing Associations Charitable Trust (HACT) UK Housing Data Standards (v3.5)](https://hact.org.uk/tools-and-services/uk-housing-data-standards/), published on 16 June 2022\.
+
+## What’s included
+
+### Code values, names and definitions
+
+| Code | Name | Definition |
+| :---- | :---- | :---- |
+| 0 | Other \- please contact for details | Please contact the instructing party/client contact to obtain details of alerts regarding this person or people \[1\] |
+| 1 | Other \- see comments | Please see comments included for details of alert \[1\] |
+| 10 | Don’t visit alone | Don't visit alone \[1\] |
+| 10-10 | Anti-social Behaviour | Don't visit alone: anti-social behaviour \[1\] |
+| 20 | Disability or vulnerability | Disability or vulnerability \[1\] |
+| 20-10 | Hearing difficulties | Person has hearing difficulties \[1\] |
+| 20-20 | Impaired vision | Person has impaired vision \[1\] |
+| 20-30 | Illness | Person has illness \[1\] |
+| 20-40 | Physical support | Person requires physical support \[1\] |
+| 20-50 | Wheelchair | Person requires wheelchair \[1\] |
+| 20-60 | Elderly | Person is elderly \[1\] |
+| 20-70 | Safeguarding alert | Other safeguarding alert \[1\] |
+| 30 | Regularly misses appointments | Person regularly misses appointments \[1\] |
+| 40 | Language support | Person may not be fluent in English \[1\] |
+| 50 | Operative gender | This person has restrictions on the gender of the operative(s) who may attend. See the AlertRegardingPerson comments for details of this restriction. \[1\] |
+| 60 | Capacity | This person does not have the capacity to make all decisions themselves due to the existence of one or more registered Lasting Power of Attorney. \[2\] |
+
+For privacy reasons, we do not recommend copying alert text or comments directly to work orders. 
+
+Include only essential information needed for the work, using summaries when appropriate.
+
+[See this table in OSCRE (sign-in required)](https://www.oscre.org/idm?version=idm-main-3_5&content=entity/PersonAlertTypeCode&product=HACT)
+
+### Entity relationship diagram
+
+A relational-database implementation of Alert Regarding Person:
+
+\[image\]
+
+> In a full HACT-standard implementation, the id PK of the Alert Regarding Person would be defined as a foreign key on a Work Order.
+> However, the Alert Regarding Person can readily be implemented independently from the rest of the standard.
+
