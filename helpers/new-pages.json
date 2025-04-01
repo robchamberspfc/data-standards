@@ -149,10 +149,10 @@
         "fileName": "reference-make-a-case-for-adopting-the-reference-entity",
         "breadcrumb": [{
             "title": "Standards",
-            "url": "./standards"
+            "url": "/standards"
         }, {
             "title": "Reference",
-            "url": "./standards/reference"
+            "url": "/standards/reference"
         }],
         "related": []
     }, {
