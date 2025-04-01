@@ -63,7 +63,7 @@ for (i = 0; i < files.length; i++) {
 
     //sanitise HTML to make sure no nasties
     const output = sanitizeHtml(html, {
-      allowedTags: ['img', 'p', 'h1','h2','h3','h4','h5','h6','ul','li','ol','a','blockquote','i','strong'],
+      allowedTags: ['img', 'p', 'h1','h2','h3','h4','h5','h6','ul','li','ol','a','blockquote','i','strong','table','thead'],
       allowedClasses: {
         'h2': ['mt-5','mb-4'],
         'h3': ['mt-3','mb-3'],
