@@ -155,6 +155,20 @@
             "url": "/standards/reference"
         }],
         "related": []
+    }, 
+        {
+        "name": "Technical guidance for reference",
+        "type": "basic",
+        "location": "./standards/technical-guidance-for-reference",
+        "fileName": "technical-guidance-for-reference",
+        "breadcrumb": [{
+            "title": "Standards",
+            "url": "/standards"
+        }, {
+            "title": "Reference",
+            "url": "/standards/reference"
+        }],
+        "related": []
     }, {
         "name": "Standards",
         "description": "Guidance for...",
