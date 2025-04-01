@@ -122,8 +122,8 @@
         "title": "Make a case for adopting person alert codes",
         "url": "/standards/make-a-case-for-adopting-person-alert-codes"
     }, {
-        "title": "Standards",
-        "url": "/standards"
+        "title": "Technical guidance for person alert codes",
+        "url": "/standards/technical-guidance-for-person-alert-codes"
     }]
 }, {
     "name": "Reference",
@@ -137,6 +137,10 @@
     "related": [{
         "title": "Make a case for adopting the reference entity",
         "url": "/standards/reference-make-a-case-for-adopting-the-reference-entity"
+    }, {
+    "related": [{
+        "title": "Technical guidance for reference",
+        "url": "/standards/technical-guidance-for-reference"
     }]
 }, 
 {
