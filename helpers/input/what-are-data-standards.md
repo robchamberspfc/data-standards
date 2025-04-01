@@ -12,7 +12,7 @@ Everyday standards include:
 
 ## How standards apply to data
 
-According to the [Open Data Institute](https://standards.theodi.org/), data standards help people and organisations to publish, access, share and use better quality data.
+According to the [Open Data Institute (ODI)](https://standards.theodi.org/), data standards help people and organisations to publish, access, share and use better quality data.
 
 Data standards are used to:
 
