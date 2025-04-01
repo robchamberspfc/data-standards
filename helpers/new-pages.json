@@ -169,6 +169,33 @@
             "url": "/standards/reference"
         }],
         "related": []
+    }, 
+        {
+        "name": "Make a case for adopting person alert codes",
+        "type": "basic",
+        "location": "./standards/make-a-case-for-adopting-person-alert-codes",
+        "fileName": "make-a-case-for-adopting-person-alert-codes",
+        "breadcrumb": [{
+            "title": "Standards",
+            "url": "/standards"
+        }, {
+            "title": "Person alert codes",
+            "url": "/standards/person-alert-codes"
+        }],
+        "related": []
+    }, {
+        "name": "Technical guidance for person alert codes",
+        "type": "basic",
+        "location": "./standards/technical-guidance-for-person-alert-codes",
+        "fileName": "technical-guidance-for-person-alert-codes",
+        "breadcrumb": [{
+            "title": "Standards",
+            "url": "/standards"
+        }, {
+            "title": "Person alert codes",
+            "url": "/standards/person-alert-codes"
+        }],
+        "related": []
     }, {
         "name": "Standards",
         "description": "Guidance for...",
