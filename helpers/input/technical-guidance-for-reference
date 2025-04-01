@@ -4,13 +4,15 @@ This page refers to [Housing Associations Charitable Trust (HACT) UK Housing Dat
 
 ### Attributes of the reference entity
 
-| Attribute | Type | Definition |
-| ---- | ---- | ---- |
-| ID | string | The actual reference number or string used to identify a particular entity in a system or process. |
-| Allocated By Code | Role Code | The role of the organization that has allocated the Reference. |
-| Allocated By Description | string | A text field to describe the organization or organizational role if AllocatedByCode is Other, or if the AllocatedByCode is omitted/not present. |
-| Description | string | An optional description for the reference, or more detail about this reference or who has allocated the reference. For example, this can be used to specify that this reference is a bar code attached to some physical component. |
-| Allocated By | string | An identifier of the organization and/or system that allocated this identifier \- this could be the name of the organization and/or system or something that identifies the specific instance of a system or database where the ID originated. |
+| **Attribute**               | **Type**  | **Definition**                                                                                                                                                                                                                                |
+| --------------------------- | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ID                          | string    | The actual reference number or string used to identify a particular entity in a system or process.                                                                                                                                            |
+| Allocated By Code           | Role Code | The role of the organization that has allocated the Reference.                                                                                                                                                                                |
+| Allocated By<br>Description | string    | A text field to describe the organization or organizational role if AllocatedByCode is Other, or if the AllocatedByCode is omitted/not present.                                                                                               |
+| Description                 | string    | An optional description for the reference, or more detail about this reference or who has allocated the reference. For example, this can be used to specify that this reference is a bar code attached to some physical component.            |
+| Allocated By                | string    | An identifier of the organization and/or system that allocated this identifier - this could be the name of the organization and/or system or something that identifies the specific instance of a system or database where the ID originated. |
+|                             |           |                                                                                                                                                                                                                                               |
+|                             |           |                                                                                                                                                                                                                                               |
 
 [See this table in OSCRE (sign-in required)](https://www.oscre.org/idm?version=idm-main-3_5&content=entity/Reference&product=HACT)
 
