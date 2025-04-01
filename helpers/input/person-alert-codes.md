@@ -41,4 +41,4 @@ By providing key information at the right time, person alert codes can help you:
 * adjust the way you engage with tenants  
 * enhance tenant satisfaction by reducing failed repairs visits
 
-[Read more about the benefits of adopting this code list](http://xx)
+[Read more about the benefits of adopting this code list](https://housing-data-standards.netlify.app/standards/make-a-case-for-adopting-person-alert-codes/)
