@@ -1,199 +1,199 @@
 [{
-    "name": "Home",
-    "type": "home",
-    "location": "./",
-    "fileName": "home",
-    "topSection": [{
-        "name": "Get started",
-        "description": "",
-        "items": [{
-                "title": "About this project",
-                "url": "about",
-                "description": ""
-            },
-            {
-                "title": "What are data standards?",
-                "url": "what-are-data-standards",
-                "description": ""
-            }
-        ]
-    }, {
-        "name": "Data standard components",
-        "description": "",
-        "items": [{
-                "title": "Reference",
-                "url": "standards/reference/",
-                "description": "Records an identifier and where it came from.",
-                "pill": "Entity"
-            },
-            {
-                "title": "Person alert codes",
-                "url": "standards/person-alert-codes/",
-                "description": "Flags tenants’ vulnerabilities to those visiting the property.",
-                "pill": "Code list"
-            }
-        ]
-    }, {
-        "name": "Procurement and system integration",
-        "description": "Guidelines for integrating data access and API requirements into procurement processes.",
-        "items": [{
-            "title": "Minimal API documentation",
-            "url": "procurement/minimal-api-documentation",
-            "description": "Provides API guidance when the OpenAPI specification isn't suitable."
+        "name": "Home",
+        "type": "home",
+        "location": "./",
+        "fileName": "home",
+        "topSection": [{
+            "name": "Get started",
+            "description": "",
+            "items": [{
+                    "title": "About this project",
+                    "url": "about",
+                    "description": ""
+                },
+                {
+                    "title": "What are data standards?",
+                    "url": "what-are-data-standards",
+                    "description": ""
+                }
+            ]
         }, {
-            "title": "Describe APIs using the OpenAPI specification",
-            "url": "procurement/describe-apis-using-the-openapi-specification",
-            "description": "Ensures consistency in how you document RESTful APIs."
+            "name": "Data standard components",
+            "description": "",
+            "items": [{
+                    "title": "Reference",
+                    "url": "standards/reference/",
+                    "description": "Records an identifier and where it came from.",
+                    "pill": "Entity"
+                },
+                {
+                    "title": "Person alert codes",
+                    "url": "standards/person-alert-codes/",
+                    "description": "Flags tenants’ vulnerabilities to those visiting the property.",
+                    "pill": "Code list"
+                }
+            ]
+        }, {
+            "name": "Procurement and system integration",
+            "description": "Guidelines for integrating data access and API requirements into procurement processes.",
+            "items": [{
+                "title": "Minimal API documentation",
+                "url": "procurement/minimal-api-documentation",
+                "description": "Provides API guidance when the OpenAPI specification isn't suitable."
+            }, {
+                "title": "Describe APIs using the OpenAPI specification",
+                "url": "procurement/describe-apis-using-the-openapi-specification",
+                "description": "Ensures consistency in how you document RESTful APIs."
+            }, {
+                "title": "Prevent integration issues with early API documentation",
+                "url": "procurement/prevent-integration-issues-with-early-api-documentation",
+                "description": "Request API structure details from suppliers early."
+            }, {
+                "title": "Putting data access requirements in tender documents",
+                "url": "procurement/putting-data-access-requirements-in-tender-documents",
+                "description": "Specifies how your systems get or interact with data."
+            }]
+        }],
+        "linkBlocks": []
+    }, {
+        "name": "About this project",
+        "type": "basic",
+        "location": "./about",
+        "fileName": "about-this-project",
+        "breadcrumb": [],
+        "related": []
+    }, {
+        "name": "What are data standards",
+        "type": "basic",
+        "location": "./what-are-data-standards",
+        "fileName": "what-are-data-standards",
+        "breadcrumb": [],
+        "related": []
+    }, {
+        "name": "Prevent integration issues with early API documentation",
+        "type": "basic",
+        "location": "./procurement/prevent-integration-issues-with-early-api-documentation",
+        "fileName": "procurement-prevent-integration-issues-with-early-api-documentation",
+        "breadcrumb": [{
+            "title": "Procurement",
+            "url": "/procurement"
+        }],
+        "related": []
+    }, {
+        "name": "Minimal API documentation",
+        "type": "basic",
+        "location": "./procurement/minimal-api-documentation",
+        "fileName": "procurement-minimal-api-documentation",
+        "breadcrumb": [{
+            "title": "Procurement",
+            "url": "/procurement"
+        }],
+        "related": []
+    }, {
+        "name": "Describe APIs using the OpenAPI specification",
+        "type": "basic",
+        "location": "./procurement/describe-apis-using-the-openapi-specification",
+        "fileName": "procurement-describe-apis-using-the-openapi-specification",
+        "breadcrumb": [{
+            "title": "Procurement",
+            "url": "/procurement"
+        }],
+        "related": []
+    }, {
+        "name": "Putting data access requirements in tender documents",
+        "type": "basic",
+        "location": "./procurement/putting-data-access-requirements-in-tender-documents",
+        "fileName": "procurement-putting-data-access-requirements-in-tender-documents",
+        "breadcrumb": [{
+            "title": "Procurement",
+            "url": "/procurement"
+        }],
+        "related": []
+    }, {
+        "name": "Person alert codes",
+        "type": "basic",
+        "location": "./standards/person-alert-codes",
+        "fileName": "person-alert-codes",
+        "breadcrumb": [{
+            "title": "Standards",
+            "url": "/standards"
+        }],
+        "related": [{
+            "title": "Make a case for adopting person alert codes",
+            "url": "/standards/make-a-case-for-adopting-person-alert-codes"
+        }, {
+            "title": "Technical guidance for person alert codes",
+            "url": "/standards/technical-guidance-for-person-alert-codes"
+        }]
+    }, {
+        "name": "Reference",
+        "type": "basic",
+        "location": "./standards/reference",
+        "fileName": "reference",
+        "breadcrumb": [{
+            "title": "Standards",
+            "url": "/standards"
+        }],
+        "related": [{
+            "title": "Make a case for adopting the reference entity",
+            "url": "/standards/reference-make-a-case-for-adopting-the-reference-entity"
+        }, {
+            "title": "Technical guidance for reference",
+            "url": "/standards/technical-guidance-for-reference"
+        }]
+    },
+    {
+        "name": "Make a case for adopting the reference entity",
+        "type": "basic",
+        "location": "./standards/reference-make-a-case-for-adopting-the-reference-entity",
+        "fileName": "reference-make-a-case-for-adopting-the-reference-entity",
+        "breadcrumb": [{
+            "title": "Standards",
+            "url": "./standards"
+        }, {
+            "title": "Reference",
+            "url": "./standards/reference"
+        }],
+        "related": []
+    }, {
+        "name": "Standards",
+        "description": "Guidance for...",
+        "type": "navigation",
+        "location": "./standards",
+        "fileName": "standards",
+        "breadcrumb": [],
+        "tiles": [{
+            "title": "Person alert codes",
+            "url": "person-alert-codes",
+            "description": ""
+        }, {
+            "title": "Reference",
+            "url": "reference",
+            "description": ""
+        }]
+    }, {
+        "name": "Procurement",
+        "description": "Guidance for...",
+        "type": "navigation",
+        "location": "./procurement",
+        "fileName": "procurement",
+        "breadcrumb": [],
+        "tiles": [{
+            "title": "Putting data access requirements in tender documents",
+            "url": "putting-data-access-requirements-in-tender-documents",
+            "description": "Specifies how your systems get or interact with data."
         }, {
             "title": "Prevent integration issues with early API documentation",
-            "url": "procurement/prevent-integration-issues-with-early-api-documentation",
+            "url": "prevent-integration-issues-with-early-api-documentation",
             "description": "Request API structure details from suppliers early."
         }, {
-            "title": "Putting data access requirements in tender documents",
-            "url": "procurement/putting-data-access-requirements-in-tender-documents",
-            "description": "Specifies how your systems get or interact with data."
+            "title": "Describe APIs using the OpenAPI specification",
+            "url": "describe-apis-using-the-openapi-specification",
+            "description": "Ensures consistency in how you document RESTful APIs."
+        }, {
+            "title": "Minimal API documentation",
+            "url": "minimal-api-documentation",
+            "description": "Provides API guidance when the OpenAPI specification isn't suitable."
         }]
-    }],
-    "linkBlocks": []
-}, {
-    "name": "About this project",
-    "type": "basic",
-    "location": "./about",
-    "fileName": "about-this-project",
-    "breadcrumb": [],
-    "related": []
-}, {
-    "name": "What are data standards",
-    "type": "basic",
-    "location": "./what-are-data-standards",
-    "fileName": "what-are-data-standards",
-    "breadcrumb": [],
-    "related": []
-}, {
-    "name": "Prevent integration issues with early API documentation",
-    "type": "basic",
-    "location": "./procurement/prevent-integration-issues-with-early-api-documentation",
-    "fileName": "procurement-prevent-integration-issues-with-early-api-documentation",
-    "breadcrumb": [{
-        "title": "Procurement",
-        "url": "/procurement"
-    }],
-    "related": []
-}, {
-    "name": "Minimal API documentation",
-    "type": "basic",
-    "location": "./procurement/minimal-api-documentation",
-    "fileName": "procurement-minimal-api-documentation",
-    "breadcrumb": [{
-        "title": "Procurement",
-        "url": "/procurement"
-    }],
-    "related": []
-}, {
-    "name": "Describe APIs using the OpenAPI specification",
-    "type": "basic",
-    "location": "./procurement/describe-apis-using-the-openapi-specification",
-    "fileName": "procurement-describe-apis-using-the-openapi-specification",
-    "breadcrumb": [{
-        "title": "Procurement",
-        "url": "/procurement"
-    }],
-    "related": []
-}, {
-    "name": "Putting data access requirements in tender documents",
-    "type": "basic",
-    "location": "./procurement/putting-data-access-requirements-in-tender-documents",
-    "fileName": "procurement-putting-data-access-requirements-in-tender-documents",
-    "breadcrumb": [{
-        "title": "Procurement",
-        "url": "/procurement"
-    }],
-    "related": []
-}, {
-    "name": "Person alert codes",
-    "type": "basic",
-    "location": "./standards/person-alert-codes",
-    "fileName": "person-alert-codes",
-    "breadcrumb": [{
-        "title": "Standards",
-        "url": "/standards"
-    }],
-    "related": [{
-        "title": "Make a case for adopting person alert codes",
-        "url": "/standards/make-a-case-for-adopting-person-alert-codes"
-    }, {
-        "title": "Technical guidance for person alert codes",
-        "url": "/standards/technical-guidance-for-person-alert-codes"
-    }]
-}, {
-    "name": "Reference",
-    "type": "basic",
-    "location": "./standards/reference",
-    "fileName": "reference",
-    "breadcrumb": [{
-        "title": "Standards",
-        "url": "/standards"
-    }],
-    "related": [{
-        "title": "Make a case for adopting the reference entity",
-        "url": "/standards/reference-make-a-case-for-adopting-the-reference-entity"
-    }, {
-    "related": [{
-        "title": "Technical guidance for reference",
-        "url": "/standards/technical-guidance-for-reference"
-    }]
-}, 
-{
-    "name": "Make a case for adopting the reference entity",
-    "type": "basic",
-    "location": "./standards/reference-make-a-case-for-adopting-the-reference-entity",
-    "fileName": "reference-make-a-case-for-adopting-the-reference-entity",
-    "breadcrumb": [{
-        "title": "Standards",
-        "url": "/standards"
-    }, {
-        "title": "Reference",
-        "url": "/standards/reference"
-    }],
-    "related": []
-}, {
-    "name": "Standards",
-    "description": "Guidance for...",
-    "type": "navigation",
-    "location": "./standards",
-    "fileName": "standards",
-    "breadcrumb": [],
-    "tiles": [{
-        "title": "Person alert codes",
-        "url": "person-alert-codes",
-        "description": ""
-    }, {
-        "title": "Reference",
-        "url": "reference",
-        "description": ""
-    }]
-}, {
-    "name": "Procurement",
-    "description": "Guidance for...",
-    "type": "navigation",
-    "location": "./procurement",
-    "fileName": "procurement",
-    "breadcrumb": [],
-    "tiles": [{
-        "title": "Putting data access requirements in tender documents",
-        "url": "putting-data-access-requirements-in-tender-documents",
-        "description": "Specifies how your systems get or interact with data."
-    }, {
-        "title": "Prevent integration issues with early API documentation",
-        "url": "prevent-integration-issues-with-early-api-documentation",
-        "description": "Request API structure details from suppliers early."
-    }, {
-        "title": "Describe APIs using the OpenAPI specification",
-        "url": "describe-apis-using-the-openapi-specification",
-        "description": "Ensures consistency in how you document RESTful APIs."
-    }, {
-        "title": "Minimal API documentation",
-        "url": "minimal-api-documentation",
-        "description": "Provides API guidance when the OpenAPI specification isn't suitable."
-    }]
-}]
+    }
+]
