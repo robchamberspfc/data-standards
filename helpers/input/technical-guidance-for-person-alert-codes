@@ -33,7 +33,10 @@ Include only essential information needed for the work, using summaries when app
 
 A relational-database implementation of Alert Regarding Person:
 
-\[image\]
+**![The diagram illustrates how 'Person Alert Type Code' relates to the entity 'Alert Regarding Person'.
+'Alert Regarding Person' contains the attributes: id (int, NOT NULL), comments (varchar(250), NULL) and type (PersonAlertTypeCode, NOT NULL, FK). 
+The 'Person Alert Type Code' entity includes attributes: code (varchar(6), NOT NULL, PK), name (varchar(50), NOT NULL) and definition (varchar(250), NOT NULL).
+A foreign key (FK) in 'Alert Regarding Person' links to the primary key (PK) in 'Person Alert Type Code', establishing a relationship between alerts and their respective alert types.](https://housing-data-standards.netlify.app/images/person-alert-codes-entity-relationship-diagram.svg)**
 
 > In a full HACT-standard implementation, the id PK of the Alert Regarding Person would be defined as a foreign key on a Work Order.
 > However, the Alert Regarding Person can readily be implemented independently from the rest of the standard.
