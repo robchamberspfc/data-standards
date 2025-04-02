@@ -61,9 +61,8 @@ We talk about this and other initiatives in the following blogs:
 
 This prototype includes:
 
-* guidance on how to adopt and use the standard components  
-* application programming interface (API) standards  
-* access standards
+* information on how to adopt and use the standard components  
+* guidelines for integrating data access and API requirements into procurement processes
 
 These data standards we use were created by [Housing Associations Charitable Trust (HACT)](https://hact.org.uk/) in 2020 as part of the HACT 2.0 repairs module, in collaboration with [Open Standards Consortium for Real Estate (OSCRE)](https://www.oscre.org/).
 
