@@ -28,39 +28,27 @@ fs.readFile(`./helpers/new-pages.json`, 'utf8', (err, newPages) => {
             if (markdownExists != -1) {
 
                 //create folder structure
-                let includePage = simpleContent(newPages[i])
-
-                //write page to location
-                fs.writeFileSync(`./_includes/${newPages[i].fileName}.html`, includePage);
-
-                //create folder structure
                 fs.mkdirSync(newPages[i].location, {
                     recursive: true
                 }, (err) => {
                     if (err) throw err;
                 });
 
-                //create location page
-                let locationPage = location(newPages[i].fileName)
+                //create html
+                let includePage = simpleContent(newPages[i])
 
                 //write page to location
-                fs.writeFileSync(`${newPages[i].location}/index.html`, locationPage);
+                fs.writeFileSync(`${newPages[i].location}/index.html`, includePage);
 
             }
 
         } else if (newPages[i].type == "home") {
 
-            //create location page
-            let locationPage = location(newPages[i].fileName)
-
-            //write page to location
-            fs.writeFileSync(`index.html`, locationPage);
-
-            //create include page
+            //create html
             let includePage = home(newPages[i])
 
             //write page to location
-            fs.writeFileSync(`./_includes/${newPages[i].fileName}.html`, includePage);
+            fs.writeFileSync(`index.html`, includePage);
 
         } else {
 
@@ -71,17 +59,11 @@ fs.readFile(`./helpers/new-pages.json`, 'utf8', (err, newPages) => {
                 if (err) throw err;
             });
 
-            //create location page
-            let locationPage = location(newPages[i].fileName)
-
-            //write page to location
-            fs.writeFileSync(`${newPages[i].location}/index.html`, locationPage);
-
-            //create include page
+            //create html
             let includePage = navigation(newPages[i])
 
             //write page to location
-            fs.writeFileSync(`./_includes/${newPages[i].fileName}.html`, includePage);
+            fs.writeFileSync(`${newPages[i].location}/index.html`, includePage);
         }
 
         console.log(`${newPages[i].name}: Finished`)
