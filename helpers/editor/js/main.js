@@ -1,0 +1,3 @@
+fetchData = () => {
+    console.log("hello")
+}
