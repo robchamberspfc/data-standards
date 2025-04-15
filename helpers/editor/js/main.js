@@ -1,6 +1,8 @@
 const url = "https://raw.githubusercontent.com/robchamberspfc/data-standards/refs/heads/main/helpers/new-pages.json"
 const selectMenu = document.getElementById("pageSelect");
+const count = document.getElementById("count");
 
+let k=0
 let pages = []
 
 async function pageLoad() {
@@ -39,10 +41,14 @@ saveEdit = () => {
     document.getElementById("edit").hidden = true
     selectMenu.value = "Select page"
     selectMenu.disabled =  false
+    k++
+    count.innerHTML=k
 }
 
 reset = () => {
     selectMenu.disabled =  false
+    k=0
+    count.innerHTML=k
     document.getElementById("edit").hidden = true
     document.getElementById("new").hidden = true
     pageLoad()
