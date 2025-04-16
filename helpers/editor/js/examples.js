@@ -8,12 +8,12 @@ const examples = {
         "name": "Block title",
         "items": [{
                 "title": "Page name",
-                "url": "Relative address"
+                "url": "Relative address",
                 "description": "Short description"
             },
             {
                 "title": "Page name",
-                "url": "Relative address"
+                "url": "Relative address",
                 "description": "Short description"
             }
         ]
@@ -21,13 +21,13 @@ const examples = {
         "name": "Block title",
         "items": [{
                 "title": "Page name",
-                "url": "Relative address"
+                "url": "Relative address",
                 "description": "Short description",
                 "pill":"text label"
             },
             {
                 "title": "Page name",
-                "url": "Relative address"
+                "url": "Relative address",
                 "description": "Short description",
                 "pill":"text label"
             }
@@ -37,11 +37,11 @@ const examples = {
         "items": [
             {
                 "title": "Page name",
-                "url": "Relative address"
+                "url": "Relative address",
                 "description": "Short description"
             }, {
                 "title": "Page name",
-                "url": "Relative address"
+                "url": "Relative address",
                 "description": "Short description"
             }
         ]
@@ -87,11 +87,11 @@ const examples = {
     "breadcrumb": [],
     "tiles": [{
         "title": "Page name",
-        "url": "Relative address"
+        "url": "Relative address",
         "description": "Short description"
     }, {
         "title": "Page name",
-        "url": "Relative address"
+        "url": "Relative address",
         "description": "Short description"
     }]
 }
