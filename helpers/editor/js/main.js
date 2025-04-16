@@ -15,6 +15,7 @@ async function pageLoad() {
 }
 
 populateSelect = (data) => {
+    selectMenu.options.length = 1;
     for (i = 0; i < data.length; i++) {
         selectMenu.options[selectMenu.options.length] = new Option(data[i].name, i)
     }
@@ -71,6 +72,7 @@ softReset = () => {
     newPageButton.disabled = false
     k++
     count.innerHTML=k
+    populateSelect(pages)
 }
 
 reset = () => {
