@@ -7,6 +7,7 @@ const examples = {
     "topSection": [
         {
             "name": "Block title",
+            "description": "",
             "items": [
                 {
                     "title": "Page name",
@@ -22,6 +23,7 @@ const examples = {
         },
         {
             "name": "Block title",
+            "description": "",
             "items": [
                 {
                     "title": "Page name",
@@ -39,6 +41,7 @@ const examples = {
         },
         {
             "name": "Block title",
+            "description": "",
             "items": [
                 {
                     "title": "Page name",
