@@ -4,59 +4,69 @@ const examples = {
     "type": "home",
     "location": "./",
     "fileName": "home",
-    "topSection": [{
-        "name": "Block title",
-        "items": [{
-                "title": "Page name",
-                "url": "Relative address",
-                "description": "Short description"
-            },
-            {
-                "title": "Page name",
-                "url": "Relative address",
-                "description": "Short description"
-            }
-        ]
-    }, {
-        "name": "Block title",
-        "items": [{
-                "title": "Page name",
-                "url": "Relative address",
-                "description": "Short description",
-                "pill":"text label"
-            },
-            {
-                "title": "Page name",
-                "url": "Relative address",
-                "description": "Short description",
-                "pill":"text label"
-            }
-        ]
-    }, {
-        "name": "Block title",
-        "items": [
-            {
-                "title": "Page name",
-                "url": "Relative address",
-                "description": "Short description"
-            }, {
-                "title": "Page name",
-                "url": "Relative address",
-                "description": "Short description"
-            }
-        ]
-    }],
+    "topSection": [
+        {
+            "name": "Block title",
+            "items": [
+                {
+                    "title": "Page name",
+                    "url": "Relative address",
+                    "description": "Short description"
+                },
+                {
+                    "title": "Page name",
+                    "url": "Relative address",
+                    "description": "Short description"
+                }
+            ]
+        },
+        {
+            "name": "Block title",
+            "items": [
+                {
+                    "title": "Page name",
+                    "url": "Relative address",
+                    "description": "Short description",
+                    "pill": "text label"
+                },
+                {
+                    "title": "Page name",
+                    "url": "Relative address",
+                    "description": "Short description",
+                    "pill": "text label"
+                }
+            ]
+        },
+        {
+            "name": "Block title",
+            "items": [
+                {
+                    "title": "Page name",
+                    "url": "Relative address",
+                    "description": "Short description"
+                },
+                {
+                    "title": "Page name",
+                    "url": "Relative address",
+                    "description": "Short description"
+                }
+            ]
+        }
+    ],
     "linkBlocks": [
-        "name": "Block title",
-        "items": [
-            {
-                "title": "Page name",
-                "url": "Relative address"
-            }, {
-                "title": "Page name",
-                "url": "Relative address"
-            }
-        ]
+        {
+            "name": "Block title",
+            "items": [
+                {
+                    "title": "Page name",
+                    "url": "Relative address"
+                },
+                {
+                    "title": "Page name",
+                    "url": "Relative address"
+                }
+            ]
+        }
     ]
 }
 `,
